@@ -1,3 +1,5 @@
+[Discord](https://discord.gg/frUYajrk29)
+
 # Supported by  [![BOZON](https://i.imgur.com/gDWlxiC.png)](https://bozon.site/)
 ## A beautiful visual and a comfortable game on servers is the main reason why I created this pack
 
