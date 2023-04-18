@@ -1,0 +1,13 @@
+name = "Enchanted Armors"
+filename = "Enchanted Armors v1.4.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "19d339dda62108f408d804efbbbd0e5a41afcd85"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4322343
+project-id = 484261

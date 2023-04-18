@@ -1,0 +1,41 @@
+{
+  "main_menu": {
+    "top_left": [],
+    "top_right": [],
+    "bottom_left": [
+      {
+        "text": "Обратная связь (Feedback)",
+        "clickEvent": {
+          "action": "open_url",
+          "value": "https://discord.gg/frUYajrk29"
+        },
+        "hoverEvent": {
+          "action": "show_text",
+          "contents": "Discord"
+        }
+      }
+    ],
+    "bottom_right": [],
+    "mod_blacklist": []
+  },
+  "pause_menu": {
+    "top_left": [],
+    "top_right": [],
+    "bottom_left": [
+      {
+        "text": "Обратная связь (Feedback)",
+        "color": "gray",
+        "clickEvent": {
+          "action": "open_url",
+          "value": "https://discord.gg/frUYajrk29"
+        },
+        "hoverEvent": {
+          "action": "show_text",
+          "contents": "Discord"
+        }
+      }
+    ],
+    "bottom_right": [],
+    "mod_blacklist": []
+  }
+}
