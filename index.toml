@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = "LICENSE"
+hash = "39694209eb5560669177c01474520af6968eb3ec2fcd539cedaeb4390db7bbea"
+
+[[files]]
+file = "README.md"
+hash = "8fb61dc959225d5dd81247894cf0ada4893bd6b0465df8c91416eff79efc2ff4"
+
+[[files]]
 file = "config/PlasmoVoice/config.json"
 hash = "3d45955093ce4318194b205d31b2363cd60c5eceba28ae3191804ad239e96f7d"
 
@@ -693,4 +701,9 @@ metafile = true
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
 hash = "e7bd470918b908960a77db10cb7918c67e6c90ac5d97218d2f875dd6e4e3dda8"
+metafile = true
+
+[[files]]
+file = "shaderpacks/vanillaa.pw.toml"
+hash = "5def7fe470d25c729d7356c856984ab517e8cbcdf0b01eced72aa1dc95accb3b"
 metafile = true
