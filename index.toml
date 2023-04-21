@@ -643,11 +643,6 @@ hash = "16ad670431e0ff6c3b3d1f9da6ffcd2ee9e5db2c1f5b6185e97d564a4b9ee834"
 metafile = true
 
 [[files]]
-file = "resourcepacks/enchanted-armors.pw.toml"
-hash = "e80d17cde5c63049dca8e59ebdaa195dc5f043fc6702100ec3b2a3cf2bdf763f"
-metafile = true
-
-[[files]]
 file = "resourcepacks/ore-variants.pw.toml"
 hash = "3ed0de1ae3c8ad7cc99c9f9d56de604bc46495298200574dde807c4ff5382818"
 metafile = true
