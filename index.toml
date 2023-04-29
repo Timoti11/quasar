@@ -609,6 +609,11 @@ hash = "468e061dd64acb9d24eeed24873a07912d150d2aef34902bc460ea85d14f0a73"
 metafile = true
 
 [[files]]
+file = "mods/sort.pw.toml"
+hash = "52bfb8baf1e2ada9b076faa8addefd732c0cd2fd408a2116f8ecfc9e96da4c08"
+metafile = true
+
+[[files]]
 file = "mods/sound-physics-remastered.pw.toml"
 hash = "da0d81fb8865755c58eccae520fafbef5bdcae6e5bc577e33e8798ba0c955369"
 metafile = true
@@ -616,6 +621,11 @@ metafile = true
 [[files]]
 file = "mods/starlight.pw.toml"
 hash = "50bf967a8ba80d17248a5f7583921b0e16808d3660c3fa4fbec5b2c078495bf7"
+metafile = true
+
+[[files]]
+file = "mods/status-effect-bars.pw.toml"
+hash = "73c08a1657457dcae1190ea814b48c360bb5b36d3822d96f1616301afb7cae8e"
 metafile = true
 
 [[files]]
