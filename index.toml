@@ -544,6 +544,11 @@ hash = "2663e1e449d5c986876be348f645ac0d60f68f1dd745ed4bf1a763fe04fdb8fa"
 metafile = true
 
 [[files]]
+file = "mods/no-resource-pack-warnings.pw.toml"
+hash = "44550fd8d2883b49d8f4e375220563dec6ed88e6c99ae9b17d1d7e544c2aab5b"
+metafile = true
+
+[[files]]
 file = "mods/not-enough-animations.pw.toml"
 hash = "9bb5ef153799568058ac12f1e188fe0047129d1165dfcaabbbd333f1b92dd48c"
 metafile = true
