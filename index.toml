@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = "LICENSE"
+hash = "39694209eb5560669177c01474520af6968eb3ec2fcd539cedaeb4390db7bbea"
+
+[[files]]
+file = "README.md"
+hash = "8fb61dc959225d5dd81247894cf0ada4893bd6b0465df8c91416eff79efc2ff4"
+
+[[files]]
 file = "config/PlasmoVoice/config.json"
 hash = "3d45955093ce4318194b205d31b2363cd60c5eceba28ae3191804ad239e96f7d"
 
@@ -556,6 +564,11 @@ hash = "fcac1bcf706fe28885f89db2492e2e7acf18fa8cd8d5eccfe464edc22b403e88"
 metafile = true
 
 [[files]]
+file = "mods/pv-addon-soundphysics.pw.toml"
+hash = "699022f3c6f29cdc0aa6c629f46b087f1b2a65766cf14f1889c8f61c4c83cc9a"
+metafile = true
+
+[[files]]
 file = "mods/qsl.pw.toml"
 hash = "946275e17b2c860d1efb56d268a63c53fa9100953ea7759c4f7c22c3385734c9"
 metafile = true
@@ -588,6 +601,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "468e061dd64acb9d24eeed24873a07912d150d2aef34902bc460ea85d14f0a73"
+metafile = true
+
+[[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "da0d81fb8865755c58eccae520fafbef5bdcae6e5bc577e33e8798ba0c955369"
 metafile = true
 
 [[files]]
@@ -636,7 +654,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/enchanted-armors.pw.toml"
-hash = "e80d17cde5c63049dca8e59ebdaa195dc5f043fc6702100ec3b2a3cf2bdf763f"
+hash = "3fd7ea463ab0049c9d7cb6ab8fe8eb1f02eac7d1105d4c626dcdbd0cb4223227"
 metafile = true
 
 [[files]]
