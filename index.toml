@@ -9,6 +9,18 @@ file = "README.md"
 hash = "8fb61dc959225d5dd81247894cf0ada4893bd6b0465df8c91416eff79efc2ff4"
 
 [[files]]
+file = "config/PlasmoVoice/.crowdin/ru_ru.json"
+hash = "73534a61d4778d61ba9daaf4bb583f978304f0e058b6a98849796936ec19c0df"
+
+[[files]]
+file = "config/PlasmoVoice/.crowdin/timestamp"
+hash = "c955b3948708bf1c5c5bf531808159cafaca30ce3d76c9d8fcff2b8d12d08b64"
+
+[[files]]
+file = "config/PlasmoVoice/client.toml"
+hash = "b16d0a881f049840b403296002c81662bbab91caa8e78188d87730640dd4812d"
+
+[[files]]
 file = "config/PlasmoVoice/config.json"
 hash = "3d45955093ce4318194b205d31b2363cd60c5eceba28ae3191804ad239e96f7d"
 
@@ -420,7 +432,7 @@ metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "15ba62f68c8edb4e9bd600242dfcaa194ab96142e7f09bed924d0ff5b4ec2f88"
+hash = "a7f1f470663d21abcf97eca006aab830ddec3689cdc7d94e094fc91041fa8d06"
 metafile = true
 
 [[files]]
@@ -544,6 +556,11 @@ hash = "2663e1e449d5c986876be348f645ac0d60f68f1dd745ed4bf1a763fe04fdb8fa"
 metafile = true
 
 [[files]]
+file = "mods/no-resource-pack-warnings.pw.toml"
+hash = "f6405d3c8392bda03384aa0264ccebbf27cf8b6f84970680702b477f05c8f059"
+metafile = true
+
+[[files]]
 file = "mods/not-enough-animations.pw.toml"
 hash = "9bb5ef153799568058ac12f1e188fe0047129d1165dfcaabbbd333f1b92dd48c"
 metafile = true
@@ -564,6 +581,11 @@ hash = "fcac1bcf706fe28885f89db2492e2e7acf18fa8cd8d5eccfe464edc22b403e88"
 metafile = true
 
 [[files]]
+file = "mods/pv-addon-soundphysics.pw.toml"
+hash = "48e54477a8c43f55b7c0b2dd0c3c921b056c703479f88f93f5f67d27467987ec"
+metafile = true
+
+[[files]]
 file = "mods/qsl.pw.toml"
 hash = "946275e17b2c860d1efb56d268a63c53fa9100953ea7759c4f7c22c3385734c9"
 metafile = true
@@ -575,7 +597,7 @@ metafile = true
 
 [[files]]
 file = "mods/shoulder-surfing-reloaded.pw.toml"
-hash = "bbd39d77658cf8c78bc1b6b8ca4350d090954b41767ce64517a1e40095a5443f"
+hash = "a3c22a20276da430b7fdaa855920f2d3cbf7e9d5618ba74600dde7fd794252d7"
 metafile = true
 
 [[files]]
@@ -599,8 +621,23 @@ hash = "468e061dd64acb9d24eeed24873a07912d150d2aef34902bc460ea85d14f0a73"
 metafile = true
 
 [[files]]
+file = "mods/sort.pw.toml"
+hash = "37281688a9645eb0bf5e0b206eccb102496a2f42022d2bb93af06367fa9dac5b"
+metafile = true
+
+[[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "377b92d5c35c41ed325145c0b03e961f8ddf6636fb57c56f415b4a578287090f"
+metafile = true
+
+[[files]]
 file = "mods/starlight.pw.toml"
 hash = "50bf967a8ba80d17248a5f7583921b0e16808d3660c3fa4fbec5b2c078495bf7"
+metafile = true
+
+[[files]]
+file = "mods/status-effect-bars.pw.toml"
+hash = "777a4547d0975974f2ebc22d0f03e4f2aabd779e75a2582567dc23102f64ac1f"
 metafile = true
 
 [[files]]
@@ -620,7 +657,7 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "a86ad32b5f332217d501217a38c00c7f02b2d00bbe9efef4e8c75e6a3698f67e"
+hash = "48ae0f17a3b052785d3201e9535af3f2ed031fe8b517cee899bc6e859d59290f"
 metafile = true
 
 [[files]]
@@ -630,7 +667,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "17440d102b008edb61a2d44719eb0ad294681de9003a645c6d334fc33109163c"
+hash = "523e76aceb76964262569bd98708b6a0a69e10a03a92f46d557ce269f4f70293"
 
 [[files]]
 file = "resourcepacks/Icons.pw.toml"
@@ -644,7 +681,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/ore-variants.pw.toml"
-hash = "3ed0de1ae3c8ad7cc99c9f9d56de604bc46495298200574dde807c4ff5382818"
+hash = "0ecde96f2aea812a73919ee72950597b31c546d29c5eff0fba24284353db3c53"
 metafile = true
 
 [[files]]
@@ -674,11 +711,11 @@ metafile = true
 
 [[files]]
 file = "servers.dat"
-hash = "f4af159e8b7884bddab4acf05f9c73d22def8993c4eb026a2986ecdb00e74676"
+hash = "fd44c28aaaf398b8c11a4ad1bb57bbc8f504ef38358d17227e7d1ca57ad8101b"
 
 [[files]]
 file = "servers.dat_old"
-hash = "b271f6afa236cd0a5afbbfd1beef554da13bf1983ea4485b435f0aca574ce597"
+hash = "b8041d6eee2a80d732d32bcb970cee0d29f2c32c0eed94086663b57cb54e32de"
 
 [[files]]
 file = "shaderpacks/BSL_v8.2.02.zip.txt"
@@ -690,15 +727,10 @@ hash = "685633983a20c4594869772d0142f245a657032702cf6cba1cd84128cc393e9b"
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
-hash = "6f796fa32047df2fba6fca47eb50b8547a82f80c0522c9d0822a43436d5d1f6b"
+hash = "eb58e87100f2c3119960a4fb3d7c145d0c8f7b9b10e84185b48fdb88fb15d0dc"
 metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "e7bd470918b908960a77db10cb7918c67e6c90ac5d97218d2f875dd6e4e3dda8"
-metafile = true
-
-[[files]]
-file = "shaderpacks/vanillaa.pw.toml"
-hash = "5def7fe470d25c729d7356c856984ab517e8cbcdf0b01eced72aa1dc95accb3b"
+hash = "8456c3ee8501fbaec3fee6c43e5a7d7aa9a66e9f666aff21058800bc2f17ecfc"
 metafile = true
