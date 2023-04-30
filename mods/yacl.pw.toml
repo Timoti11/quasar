@@ -1,16 +1,16 @@
 name = "YetAnotherConfigLib"
-filename = "YetAnotherConfigLib-2.2.0.jar"
+filename = "yet-another-config-lib-forge-2.5.0+1.19.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/1eAoo2KR/versions/3EWbdCzX/YetAnotherConfigLib-2.2.0.jar"
 hash-format = "sha1"
-hash = "62158cf974075dfd896540191e4ae108e6ec67b3"
+hash = "213e355572603b81366f15324ef8e138100cd3ed"
+mode = "metadata:curseforge"
 
 [update]
+[update.curseforge]
+file-id = 4506709
+project-id = 667299
 [update.modrinth]
 mod-id = "1eAoo2KR"
 version = "3EWbdCzX"
-[update.curseforge]
-file-id = 4260308
-project-id = 667299
