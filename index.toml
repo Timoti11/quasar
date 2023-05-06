@@ -581,11 +581,6 @@ hash = "fcac1bcf706fe28885f89db2492e2e7acf18fa8cd8d5eccfe464edc22b403e88"
 metafile = true
 
 [[files]]
-file = "mods/pv-addon-soundphysics.pw.toml"
-hash = "48e54477a8c43f55b7c0b2dd0c3c921b056c703479f88f93f5f67d27467987ec"
-metafile = true
-
-[[files]]
 file = "mods/qsl.pw.toml"
 hash = "946275e17b2c860d1efb56d268a63c53fa9100953ea7759c4f7c22c3385734c9"
 metafile = true
@@ -623,11 +618,6 @@ metafile = true
 [[files]]
 file = "mods/sort.pw.toml"
 hash = "37281688a9645eb0bf5e0b206eccb102496a2f42022d2bb93af06367fa9dac5b"
-metafile = true
-
-[[files]]
-file = "mods/sound-physics-remastered.pw.toml"
-hash = "377b92d5c35c41ed325145c0b03e961f8ddf6636fb57c56f415b4a578287090f"
 metafile = true
 
 [[files]]
