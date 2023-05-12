@@ -39,7 +39,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:5
 renderClouds:"true"
-resourcePacks:["vanilla","continuity/default","continuity/glass_pane_culling_fix","file/Default-Dark-Mode-1.19.3-v1.4.0.zip","minecraft/supporteatinganimation","file/Icons.zip","file/xali\u0027s Enhanced Jungle Wood v1.2.zip","file/xali\u0027s Enhanced Vanilla v1.11.1.zip","file/xali\u0027s Potions v1.0.zip","file/xali-s-Enchanted-Books-16x-v0.10.1.zip","file/§2§lVisual§0-§a§lLeaf§0-§2§lDecay§0-§7§o1.3§0-§8.zip","file/Ore Variants v2.7.zip"]
+resourcePacks:["vanilla","continuity/default","continuity/glass_pane_culling_fix","minecraft/supporteatinganimation","file/Icons.zip","file/xali\u0027s Enhanced Jungle Wood v1.2.zip","file/xali\u0027s Enhanced Vanilla v1.11.1.zip","file/xali\u0027s Potions v1.0.zip","file/xali-s-Enchanted-Books-16x-v0.10.1.zip","file/§2§lVisual§0-§a§lLeaf§0-§2§lDecay§0-§7§o1.3§0-§8.zip","file/Ore Variants v2.7.zip","file/Default-Dark-Mode-1.19.4-v1.4.0.zip"]
+incompatibleResourcePacks:[]
 incompatibleResourcePacks:[]
 lastServer:
 lang:ru_ru

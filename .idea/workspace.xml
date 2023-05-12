@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1e76ab43-a4b6-48ee-be32-f764ecf708a7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/index.toml" beforeDir="false" afterPath="$PROJECT_DIR$/index.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/advancementinfo.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/ambientsounds.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/animatica.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/antighost.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/appleskin.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/betterf3.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/blur-fabric.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/bobby.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/borderless-mining.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/c2me-fabric.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/capes.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/cem.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/chat-heads.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/cit-resewn.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/clickthrough.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/cloth-config.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/continuity.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/creativecore.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/dark-loading-screen.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/dcch.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/debugify.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/dynamic-fps.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/eating-animation.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/emotecraft.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/enhanced-searchability.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/entityculling.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/entitytexturefeatures.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/exordium.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/extrasounds.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/fabric-language-kotlin.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/fabricskyboxes.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/fallingleaves.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/ferrite-core.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/forge-config-api-port.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/iceberg.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/immediatelyfast.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/indium.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/invmove.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/iris.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/item-highlighter.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/krypton.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/lambdynamiclights.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/language-reload.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/lazydfu.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/lithium.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/main-menu-credits.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/make_bubbles_pop.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/memoryleakfix.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/modmenu.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/morechathistory.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/moreculling.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/no-resource-pack-warnings.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/not-enough-animations.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/ok-zoomer.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/plasmo-voice.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/presence-footsteps.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/qsl.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/reeses-sodium-options.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/shoulder-surfing-reloaded.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/shulkerboxtooltip.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/smoothboot-fabric.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/sodium-extra.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/sodium.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/sort.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/starlight.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/status-effect-bars.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/stendhal.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/symbol-chat.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/visuality.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/yacl.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods/yosbr.pw.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pack.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pack.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resourcepacks/default-dark-mode.pw.toml" beforeDir="false" afterPath="$PROJECT_DIR$/resourcepacks/default-dark-mode.pw.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shaderpacks/bsl-shaders.pw.toml" beforeDir="false" afterPath="$PROJECT_DIR$/shaderpacks/bsl-shaders.pw.toml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PfluMv4CKrUfQMm267fdRz4RVc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e76ab43-a4b6-48ee-be32-f764ecf708a7" name="Changes" comment="" />
+      <created>1683856239625</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683856239625</updated>
+    </task>
+    <servers />
+  </component>
+</project>

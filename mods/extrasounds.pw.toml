@@ -1,8 +1,0 @@
-name = "ExtraSounds"
-filename = "extrasounds-2.3.11.19.3.jar"
-side = "both"
-
-[download]
-url = "https://www.dropbox.com/s/mfnxx9cs1mxja2a/extrasounds-2.3.11.19.3.jar?dl=1"
-hash-format = "sha1"
-hash = "43f2f0073c84af0dfa63ff78ca105fef080bc1c1"
