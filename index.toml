@@ -110,7 +110,7 @@ hash = "80988bf424720b4fe1b3143a286dcb75c511f5e8fb17951b3c0cd033b46d47a0"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "69baf6e2be3be4a9de709fa732f87275fc8e78d3f2605525ca88ad7004b62a6a"
+hash = "557a5dd51bc1159f2417a280da676d201d50ddb179c7ac2bac91f6691fb3e31d"
 
 [[files]]
 file = "config/lithium.properties"
@@ -170,7 +170,7 @@ hash = "b35b099a51f0cc1cfd94b1a1444de0d0d0c4e1b3399575504bbdcfaf02c359b0"
 
 [[files]]
 file = "config/symbol-chat.json"
-hash = "d8ecb8f26d6630cd3df1bbdd7bac9a869ff20cae232144d8611a8887becdc3cd"
+hash = "b7fd28b1f711fdb03b945444f1b62ac758334ec606fa53409bd285e2969a53a1"
 
 [[files]]
 file = "config/tr7zwDonorSettings.json"
@@ -343,7 +343,7 @@ metafile = true
 
 [[files]]
 file = "mods/betterf3.pw.toml"
-hash = "fa625b7c1043f3d99320c912923fe5670edd3a4b405e94d4920638827762543b"
+hash = "8733447c9fac53455ec04b7027aa11ef5cdf226dfd4277953a88039dff28b21f"
 metafile = true
 
 [[files]]
@@ -358,7 +358,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "9277beb9481ab7cd8abff4411fd823a167073c9457e142e5579d568e8f26c0a1"
+hash = "f66e5e5b2895e80639d7ccedf1967aa3f4ff474f50b1661a11fa5e30d503742f"
 metafile = true
 
 [[files]]
@@ -448,7 +448,7 @@ metafile = true
 
 [[files]]
 file = "mods/exordium.pw.toml"
-hash = "08f6c4840472fa93f1a8f20b081d6c668f3231d7f1a36c462e6de27922264965"
+hash = "bbe9d9219adf285af3cca79de8551e98e1ff260a947c3ea18ce7158f86c0867f"
 metafile = true
 
 [[files]]
@@ -469,6 +469,11 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "c2814d761fc227d78759c88c38b37b3985fe4a36d18520a333965a1a9a601c2d"
+metafile = true
+
+[[files]]
+file = "mods/forcecloseworldloadingscreen.pw.toml"
+hash = "a43c90eeb2b3942ff228c4c8ad0d137afb03892b7c8f37b95fdf1232cff06994"
 metafile = true
 
 [[files]]
@@ -588,12 +593,12 @@ metafile = true
 
 [[files]]
 file = "mods/presence-footsteps.pw.toml"
-hash = "5b242270eda128c7eb2cdcc29d9f8fe24a997241ef19093a0e1e5112bc0dcabb"
+hash = "e34a6d645bcfcb5a677159ac959b19ef3fde39a066f7164b565f8877bc3de525"
 metafile = true
 
 [[files]]
 file = "mods/qsl.pw.toml"
-hash = "5f70762432ca96f1897d96f36b72f248ecd3ec48abe7dffad6e1b1375998508f"
+hash = "ed9a11a142b9e2aadbbd4736e3a4edbb209e991a42107ea90e048dfce10b2896"
 metafile = true
 
 [[files]]
@@ -618,7 +623,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "637533a15bb4eb5aaaab5a8fdc352214732202def3beedcd91a4e4e614a74f2a"
+hash = "d01862cb94c4d9e2b1696aa72a6b80eb410f4ff1dae837f301082cbb429119d8"
 metafile = true
 
 [[files]]
@@ -719,21 +724,39 @@ file = "servers.dat_old"
 hash = "b8041d6eee2a80d732d32bcb970cee0d29f2c32c0eed94086663b57cb54e32de"
 
 [[files]]
-file = "shaderpacks/BSL_v8.2.02.zip.txt"
-hash = "7d79d063d033b8780cff987e55ea7d30f0129d926a511e02467bc89ab8eb2fa2"
+file = "shaderpacks/[Astronicat] Rethinking Voxels.zip.txt"
+hash = "fdf836432a905bbc3ac9a0d56783880da129487db3a6ca7e63f8f512fe22ae02"
 
 [[files]]
-file = "shaderpacks/ComplementaryReimagined_r2.0.3.zip.txt"
+file = "shaderpacks/[Mazon_Alex] ComplementaryShaders_1.19_v4.7.1.zip.txt"
+hash = "cf2a011dafab2369588f9b03360081c66b129c3e97ada3facd54384a3fa6c612"
+
+[[files]]
+file = "shaderpacks/[Timoti11] ComplementaryReimagined_r2.0.3.zip.txt"
 hash = "685633983a20c4594869772d0142f245a657032702cf6cba1cd84128cc393e9b"
 
 [[files]]
-file = "shaderpacks/bsl-shaders.pw.toml"
-hash = "eb5d07ac1370825eaa1a35eea0b9fa53bf89f7716f7eb62b626effca4f5817b1"
-metafile = true
+file = "shaderpacks/[ZapahKleya] ComplementaryReimagined_r2.0.3.zip.txt"
+hash = "4cc7a59051b0d68fcaf5285b3ef1cbaeeecffec0e7dd477709fa23bad7bdd86c"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "6a705faebed801c38160197bea7420b755728f7dbd9ebeb6a7ac46b1b164f44a"
+hash = "474f3a0e2c3845f535173699c742b369ba6f1350ffb4ba76b4d3b152fd980ccb"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined_z.pw.toml"
+hash = "42e1442ae60318ef10a79219127d496b82510898cb21738dc0fb54863f51e9a7"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-shaders-v4.pw.toml"
+hash = "448fef722df68ed9dad5d0c1c69119124ee122cd92076aa7bc8413de8458d904"
+metafile = true
+
+[[files]]
+file = "shaderpacks/rethinking-voxels.pw.toml"
+hash = "afa1e63d72b17d308b930d5814f431433150345378d9a59c8f6de591a9e8cfff"
 metafile = true
 
 [[files]]

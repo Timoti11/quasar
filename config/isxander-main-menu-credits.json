@@ -5,6 +5,7 @@
     "bottom_left": [
       {
         "text": "Обратная связь (Feedback)",
+        "color": "blue",
         "clickEvent": {
           "action": "open_url",
           "value": "https://discord.gg/frUYajrk29"
@@ -15,7 +16,12 @@
         }
       }
     ],
-    "bottom_right": [],
+    "bottom_right": [
+      {
+        "text": "Quasar 1.4.3",
+        "color": "aqua"
+      }
+    ],
     "mod_blacklist": []
   },
   "pause_menu": {
@@ -24,6 +30,7 @@
     "bottom_left": [
       {
         "text": "Обратная связь (Feedback)",
+        "color": "blue",
         "color": "gray",
         "clickEvent": {
           "action": "open_url",
@@ -35,7 +42,12 @@
         }
       }
     ],
-    "bottom_right": [],
+    "bottom_right": [
+      {
+        "text": "Quasar 1.4.3",
+        "color": "aqua"
+      }
+    ],
     "mod_blacklist": []
   }
 }
