@@ -15,7 +15,7 @@
 - Moving with open inventory
 - Convenient symbols in chat, on signs and books
 - A lot of optimization mods
-- And many others...
+- And many others... 
 
 ## How to install?
 ### Prism Launcher/MultiMC/ATLauncher
