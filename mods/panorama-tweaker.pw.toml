@@ -1,0 +1,13 @@
+name = "Panorama Tweaker"
+filename = "panorama_tweaker-1.2.1+mc1.20.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/H0vaEZ6t/versions/t91xtIPb/panorama_tweaker-1.2.1%2Bmc1.20.jar"
+hash-format = "sha1"
+hash = "26ff958a915a53ec4584739b89f6643294660096"
+
+[update]
+[update.modrinth]
+mod-id = "H0vaEZ6t"
+version = "t91xtIPb"
