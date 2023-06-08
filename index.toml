@@ -302,6 +302,11 @@ hash = "23981644f04dfd6272614c3f1b23502af9d772a8044b19f62d699f6b73b3a625"
 metafile = true
 
 [[files]]
+file = "mods/appleskin.pw.toml"
+hash = "6869de1ca55dc09beabb3c234727e84be4d4fbdcbad2c8081c03010713f374e1"
+metafile = true
+
+[[files]]
 file = "mods/betterf3.pw.toml"
 hash = "2d88d778d55cc28c795e4a6efcd55f759af34dfe21f5b6ee120382b40eb8269d"
 metafile = true
@@ -318,7 +323,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "caa1e5a4358efc50bcd4c07efb0d1ab06dcec70ac4e3e7cc1ec4c2f00a8e1ade"
+hash = "b9cc3ddd40c728549f8de8db2b211a534303018bf8c18d22871ad17f62c47118"
 metafile = true
 
 [[files]]
@@ -332,13 +337,18 @@ hash = "0d1b70e6b6851d0b765fc94d5c6f9201eaee8201bacc2d2604db15b2ab2b3364"
 metafile = true
 
 [[files]]
-file = "mods/debugify.pw.toml"
-hash = "ac337cbe2a7ebfcd42354f20a84e585bb78e5754c0008b1f578d6dd5cfecdf0b"
+file = "mods/eating-animation.pw.toml"
+hash = "13a1357c0e5f6a3bd2978c80c405909b0654079a3f29d8f02fdc30f985f17f9b"
 metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "a29a6474aff0264882b7e6e010d8beadfb3291e361d171aebb0cb158f4892812"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "ca4c66e6e0c96f139fb996915277a0a417a55fc5ffa8810d0aaa5dd07080399c"
 metafile = true
 
 [[files]]
@@ -367,6 +377,11 @@ hash = "77616a9061900a8194e034d47bf2e4cea22ce3caf11917b5f6fc17e4ac34be2d"
 metafile = true
 
 [[files]]
+file = "mods/language-reload.pw.toml"
+hash = "e0bcfae8d473e27507ca87747e1529eb34c2eb763efcb41c849ed863cbd70c75"
+metafile = true
+
+[[files]]
 file = "mods/main-menu-credits.pw.toml"
 hash = "2a79f7fb98b7073c926c6f87a93473f5714cf82a2ace7f344e4e2de4a33e0233"
 metafile = true
@@ -387,13 +402,13 @@ hash = "9e96abe5718769839ded2661041fdeb40aece791fe21f408cb2512d90094551c"
 metafile = true
 
 [[files]]
-file = "mods/qsl.pw.toml"
-hash = "97b3b07582f18b6c01d38deccc1e44c90db4e44588940efe5e472ec202a1a33f"
+file = "mods/reeses-sodium-options.pw.toml"
+hash = "849adbd01cfad2e79ad3b2f7c29b98af92b8ca36791abe04856621a5487cdb52"
 metafile = true
 
 [[files]]
-file = "mods/reeses-sodium-options.pw.toml"
-hash = "849adbd01cfad2e79ad3b2f7c29b98af92b8ca36791abe04856621a5487cdb52"
+file = "mods/rrls.pw.toml"
+hash = "0f4d4c530e9ef67b3a4744f45e2480d41cdb6bcdce40e828cccfb37e0a97cd33"
 metafile = true
 
 [[files]]
@@ -404,6 +419,11 @@ metafile = true
 [[files]]
 file = "mods/starlight.pw.toml"
 hash = "218f67d6bcaae849582618cd3e5eb1d4cac0fd6045115f64340620300e160c11"
+metafile = true
+
+[[files]]
+file = "mods/stendhal.pw.toml"
+hash = "d6d41d774c13f45d6832f2f375abf4f01aec1d227eb91ec0f13852687cb51934"
 metafile = true
 
 [[files]]
