@@ -332,13 +332,13 @@ hash = "0d1b70e6b6851d0b765fc94d5c6f9201eaee8201bacc2d2604db15b2ab2b3364"
 metafile = true
 
 [[files]]
-file = "mods/entityculling.pw.toml"
-hash = "a29a6474aff0264882b7e6e010d8beadfb3291e361d171aebb0cb158f4892812"
+file = "mods/debugify.pw.toml"
+hash = "ac337cbe2a7ebfcd42354f20a84e585bb78e5754c0008b1f578d6dd5cfecdf0b"
 metafile = true
 
 [[files]]
-file = "mods/fabric-api.pw.toml"
-hash = "6df0e9af3139315241de75c0bfc69491ab9b4e8bed82b60e663d08151ae40af5"
+file = "mods/entityculling.pw.toml"
+hash = "a29a6474aff0264882b7e6e010d8beadfb3291e361d171aebb0cb158f4892812"
 metafile = true
 
 [[files]]
@@ -387,6 +387,11 @@ hash = "9e96abe5718769839ded2661041fdeb40aece791fe21f408cb2512d90094551c"
 metafile = true
 
 [[files]]
+file = "mods/qsl.pw.toml"
+hash = "97b3b07582f18b6c01d38deccc1e44c90db4e44588940efe5e472ec202a1a33f"
+metafile = true
+
+[[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "849adbd01cfad2e79ad3b2f7c29b98af92b8ca36791abe04856621a5487cdb52"
 metafile = true
@@ -404,6 +409,11 @@ metafile = true
 [[files]]
 file = "mods/visuality.pw.toml"
 hash = "57167b8633443de7901511872a276a81839ecf7454c2c120b86a56948b7694b5"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "898ef30f8f530f50f41b5acc2b7e0187cfd33d9e29292bc07d8e9f5b76fdc7e1"
 metafile = true
 
 [[files]]
