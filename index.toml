@@ -302,11 +302,6 @@ hash = "23981644f04dfd6272614c3f1b23502af9d772a8044b19f62d699f6b73b3a625"
 metafile = true
 
 [[files]]
-file = "mods/appleskin.pw.toml"
-hash = "6869de1ca55dc09beabb3c234727e84be4d4fbdcbad2c8081c03010713f374e1"
-metafile = true
-
-[[files]]
 file = "mods/betterf3.pw.toml"
 hash = "2d88d778d55cc28c795e4a6efcd55f759af34dfe21f5b6ee120382b40eb8269d"
 metafile = true
@@ -337,6 +332,11 @@ hash = "0d1b70e6b6851d0b765fc94d5c6f9201eaee8201bacc2d2604db15b2ab2b3364"
 metafile = true
 
 [[files]]
+file = "mods/debugify.pw.toml"
+hash = "a3ef0ef31a8279dfb6ff25e78083291a483109b624e90946d7d0de13d9ff35a3"
+metafile = true
+
+[[files]]
 file = "mods/eating-animation.pw.toml"
 hash = "13a1357c0e5f6a3bd2978c80c405909b0654079a3f29d8f02fdc30f985f17f9b"
 metafile = true
@@ -344,11 +344,6 @@ metafile = true
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "4eec3de8a58a6e64ea96e31781b52f70b4b33ec02a34a45f171e3a1e6697ba86"
-metafile = true
-
-[[files]]
-file = "mods/fabric-api.pw.toml"
-hash = "ca4c66e6e0c96f139fb996915277a0a417a55fc5ffa8810d0aaa5dd07080399c"
 metafile = true
 
 [[files]]
@@ -377,8 +372,8 @@ hash = "77616a9061900a8194e034d47bf2e4cea22ce3caf11917b5f6fc17e4ac34be2d"
 metafile = true
 
 [[files]]
-file = "mods/language-reload.pw.toml"
-hash = "e0bcfae8d473e27507ca87747e1529eb34c2eb763efcb41c849ed863cbd70c75"
+file = "mods/lithium.pw.toml"
+hash = "6c681a60f617657bb819dae03d180a92a513908705518480391dfd55783b457a"
 metafile = true
 
 [[files]]
@@ -392,13 +387,33 @@ hash = "728d46b605885ad0ec57968f7d6b1c926d93fcca3b235dda272f0ed02701cf83"
 metafile = true
 
 [[files]]
+file = "mods/not-enough-animations.pw.toml"
+hash = "15bbdb7f98ae7148b79b69408488dd03016ac89fe647b5396417a8ba4f968df0"
+metafile = true
+
+[[files]]
+file = "mods/ok-zoomer.pw.toml"
+hash = "23583083d03c8effa3dca4c17c7da2fcf57d653292b02898afe8d7029be6b0d7"
+metafile = true
+
+[[files]]
 file = "mods/panorama-tweaker.pw.toml"
 hash = "84bbb0692b7f4a2aa4ac7996d01ef9d8df79eb510a8303bd5b7a16047d6f3626"
 metafile = true
 
 [[files]]
+file = "mods/plasmo-voice.pw.toml"
+hash = "9270c1bfd9666d60e500c8ccbf662b0e41dbdf53a3deb902db5dcb72f5539685"
+metafile = true
+
+[[files]]
 file = "mods/presence-footsteps.pw.toml"
 hash = "9e96abe5718769839ded2661041fdeb40aece791fe21f408cb2512d90094551c"
+metafile = true
+
+[[files]]
+file = "mods/qsl.pw.toml"
+hash = "21e92010a664ed7c9f4b9d84e48b2e85903dd28049dbebbeb52aad03942f159a"
 metafile = true
 
 [[files]]
@@ -412,6 +427,11 @@ hash = "0f4d4c530e9ef67b3a4744f45e2480d41cdb6bcdce40e828cccfb37e0a97cd33"
 metafile = true
 
 [[files]]
+file = "mods/shulkerboxtooltip.pw.toml"
+hash = "d493589a9743da84d5f7667dd418793870bb928cd0fcc72d59b98ad4f2dfe5c0"
+metafile = true
+
+[[files]]
 file = "mods/sodium.pw.toml"
 hash = "a84a9659a0a98151a24a0735b6e8dc2642f61cdabdf99138cdba1e1fc08d2e24"
 metafile = true
@@ -419,11 +439,6 @@ metafile = true
 [[files]]
 file = "mods/starlight.pw.toml"
 hash = "218f67d6bcaae849582618cd3e5eb1d4cac0fd6045115f64340620300e160c11"
-metafile = true
-
-[[files]]
-file = "mods/stendhal.pw.toml"
-hash = "d6d41d774c13f45d6832f2f375abf4f01aec1d227eb91ec0f13852687cb51934"
 metafile = true
 
 [[files]]
@@ -438,7 +453,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "4cfacbb3871d73155892b320a072a400eaaa6fe63dcc85d7abd271eb1f86e909"
+hash = "4dbd3da997d6bfb8e120ea5f341bda831600745fc0ed1e5a9f4100c1e5c26a4d"
 
 [[files]]
 file = "resourcepacks/Icons.pw.toml"
@@ -447,7 +462,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/default-dark-mode.pw.toml"
-hash = "8bcc09dad051de7dd57ad3251a0346e57053cbd97d5d16c7aad11d36595a7245"
+hash = "1de5f2bf9632a9bfb2576a95711155fb72d4dc9825d767615465fe58cd6bd588"
 metafile = true
 
 [[files]]
