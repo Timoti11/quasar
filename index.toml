@@ -90,7 +90,7 @@ hash = "80988bf424720b4fe1b3143a286dcb75c511f5e8fb17951b3c0cd033b46d47a0"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "557a5dd51bc1159f2417a280da676d201d50ddb179c7ac2bac91f6691fb3e31d"
+hash = "fac871fb796d8a75f38f517a5d3b73413f3d6e49bd65a21cdf0fdeb06adf1fc1"
 
 [[files]]
 file = "config/lithium.properties"
@@ -429,6 +429,11 @@ metafile = true
 [[files]]
 file = "mods/shulkerboxtooltip.pw.toml"
 hash = "d493589a9743da84d5f7667dd418793870bb928cd0fcc72d59b98ad4f2dfe5c0"
+metafile = true
+
+[[files]]
+file = "mods/sodium-extra.pw.toml"
+hash = "ea193a0081775b5b2dda289e12578c9122294ec6b6363dbfd7c1e7b5d2dfbd71"
 metafile = true
 
 [[files]]
