@@ -313,7 +313,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "7cd96b994720f3f53f5934e5c0361fdcb075e8d954928a78c55c64e53b6a0ee4"
+hash = "c4433d59883d98e778c0ad54088f2b04ae2ccc33406f394780244c3734a5d136"
 metafile = true
 
 [[files]]
@@ -347,6 +347,11 @@ hash = "4eec3de8a58a6e64ea96e31781b52f70b4b33ec02a34a45f171e3a1e6697ba86"
 metafile = true
 
 [[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+hash = "49a42a2456b0d0024bb61afdfeb279c51d581901fbd59a4d00ff772b206fefaa"
+metafile = true
+
+[[files]]
 file = "mods/fabricskyboxes.pw.toml"
 hash = "c9f89c942de9c4e778084b56ed4767bf2ec5d30894da7c3edea584b702cf35a3"
 metafile = true
@@ -354,6 +359,11 @@ metafile = true
 [[files]]
 file = "mods/fallingleaves.pw.toml"
 hash = "71912ceecfedb0683a3139b7f267c16bc61acef41c684baf2a039ebf4c01cc46"
+metafile = true
+
+[[files]]
+file = "mods/forcecloseworldloadingscreen.pw.toml"
+hash = "49e8e4a6ca064acedd121892f6b279d23e54a62d5e023183578e1e8b559f0c9b"
 metafile = true
 
 [[files]]
