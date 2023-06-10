@@ -124,4 +124,3 @@ jobs:
           MESSAGE_DESCRIPTION: "Modrinth: https://modrinth.com/modpack/quasar/version/${{ needs.info.outputs.version }}\nGitHub: https://github.com/Timoti11/quasar/releases/tag/${{ needs.info.outputs.version }}"
           MESSAGE_COLOR: 5814783
           CONTENT: CHANGELOG.md
-          IMAGE: null;
