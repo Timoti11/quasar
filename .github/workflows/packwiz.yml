@@ -114,3 +114,14 @@ jobs:
             ${{ needs.info.outputs.package }}.mrpack
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Discord notification
+        uses: LeGitHubDeTai/github-to-discord@main
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          DISCORD_USERNAME: "Quasar update"
+          DISCORD_AVATAR: https://i.imgur.com/tFjuB4b.png
+          MESSAGE_TITLE: ${{ needs.info.outputs.name }} ${{ needs.info.outputs.version }} for ${{ needs.info.outputs.minecraft }}
+          MESSAGE_DESCRIPTION: "Modrinth: https://modrinth.com/modpack/quasar/version/${{ needs.info.outputs.version }}\nGitHub: https://github.com/Timoti11/quasar/releases/tag/${{ needs.info.outputs.version }}"
+          MESSAGE_COLOR: 5814783
+          CONTENT: CHANGELOG.md
+          IMAGE: null;
