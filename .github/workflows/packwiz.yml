@@ -126,10 +126,11 @@ jobs:
           DISCORD_AVATAR: https://i.imgur.com/tFjuB4b.png
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           MESSAGE_TITLE: ${{ needs.info.outputs.name }} ${{ needs.info.outputs.version }} for ${{ needs.info.outputs.minecraft }}
+          MESSAGE_TITLE: null
           MESSAGE_DESCRIPTION: "**[Modrinth release page](https://modrinth.com/modpack/quasar/version/${{ needs.info.outputs.version }})**\n**[GitHub release page](https://github.com/Timoti11/quasar/releases/tag/${{ needs.info.outputs.version }})**"
           MESSAGE_COLOR: 5814783
           FOOTER_TEXT: "by Timoti11"
           FOOTER_URL: "https://images-ext-1.discordapp.net/external/2qKhi2zHQrfW_hu5HrjxkoRiBRgT08j7_Bztf2ApK3o/https/images-ext-2.discordapp.net/external/ecsg1jR9KZEF5g3TyyULKF70ETmPbFItGSfLlHza-VY/https/images-ext-1.discordapp.net/external/zeQBIIqBNTESkGPblYjZotlN8057avDSRkzHxodm-mY/https/images-ext-2.discordapp.net/external/SN7CDY2oXhi8-7nwYsOYO29f-o40s-b3CDeV5r4v8Po/%2525253Fid%2525253D8aaa273f0fc1e97e%25252526scale%2525253D4/https/s.namemc.com/2d/skin/face.png"
           AUTHOR_URL: "https://modrinth.com/modpack/quasar/version/${{ needs.info.outputs.version }}"
-          AUTHOR_NAME: "Скачать"
-          AUTHOR_AVATAR: "https://github.com/modrinth/art/raw/main/Branding/Mark/mark-dark.svg"
+          AUTHOR_NAME: "Скачать с Modrinth"
+          AUTHOR_AVATAR: "https://i.imgur.com/pEilWJt.png"
