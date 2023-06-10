@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".github/workflows/packwiz.yml"
+hash = "240af0f172e77eaa4e9e0f7a7318c78d3ac76674f897028e7128f3ec444dc1d9"
+
+[[files]]
+file = "CHANGELOG.md"
+hash = "da9fae7a5df19759a10c8b96d8736ccd3577de8e28364fff7d0a8726dcdc46f5"
+
+[[files]]
 file = "README.md"
 hash = "aa0e8b7e30d62f83f5306e3b278240bf6d609f34ba2d25b5241cf0bc6aa1316c"
 
@@ -582,3 +590,7 @@ metafile = true
 file = "shaderpacks/vanillaa.pw.toml"
 hash = "17c7f2ca7bc6f1419038845cb4b3e217d755cf74f1409c30347667ad6b2f2018"
 metafile = true
+
+[[files]]
+file = "test.txt"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
