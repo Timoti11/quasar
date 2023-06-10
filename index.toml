@@ -125,6 +125,10 @@ file = "config/presencefootsteps/userconfig.json"
 hash = "b1886d8616c1c4abc50edd078684f9bd74ce56ae04eb0ac3f93183e5ac88c2a0"
 
 [[files]]
+file = "config/rrls.toml"
+hash = "cc7bbd1f8760035031a56bd3eac4c94517858946c8bd6afeb9b1c5e60ba66ca0"
+
+[[files]]
 file = "config/rrp.properties"
 hash = "1aad61cdce6b8fc986756a15cbe57a93d6f3c10abf64d259fdd8d565c5c928a1"
 
@@ -297,6 +301,11 @@ file = "config/yosbr/options.txt"
 hash = "183c3067f8fde6db761ad42dc8c73bbc4ff4dc5ab9c092fe9cfe4143697ec83d"
 
 [[files]]
+file = "mods/ambientsounds.pw.toml"
+hash = "48983de0da1c78a6089759b0667db3390e67e62801cefdf0673f00760957116d"
+metafile = true
+
+[[files]]
 file = "mods/antighost.pw.toml"
 hash = "23981644f04dfd6272614c3f1b23502af9d772a8044b19f62d699f6b73b3a625"
 metafile = true
@@ -304,6 +313,11 @@ metafile = true
 [[files]]
 file = "mods/betterf3.pw.toml"
 hash = "2d88d778d55cc28c795e4a6efcd55f759af34dfe21f5b6ee120382b40eb8269d"
+metafile = true
+
+[[files]]
+file = "mods/blur-fabric.pw.toml"
+hash = "5f53eb8d272bfec2c6f58d6d744397b8152d7561a370f1d6e7e1e495fc4a1e7a"
 metafile = true
 
 [[files]]
@@ -317,6 +331,11 @@ hash = "c4433d59883d98e778c0ad54088f2b04ae2ccc33406f394780244c3734a5d136"
 metafile = true
 
 [[files]]
+file = "mods/cit-resewn.pw.toml"
+hash = "44e2cc695c040b7bbca462165099fa3c56a98aa8f01104bb067dc850b65f6d02"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "b9cc3ddd40c728549f8de8db2b211a534303018bf8c18d22871ad17f62c47118"
 metafile = true
@@ -324,6 +343,11 @@ metafile = true
 [[files]]
 file = "mods/continuity.pw.toml"
 hash = "4cb02206331c9a6d207681b2e40b4b8648a462b0c31e6e634200a01b592b1d3d"
+metafile = true
+
+[[files]]
+file = "mods/creativecore.pw.toml"
+hash = "cdba4b9a99e550c7eb1d70e30d34261ea692872e566a319300a13761d96a6835"
 metafile = true
 
 [[files]]
@@ -382,6 +406,11 @@ hash = "77616a9061900a8194e034d47bf2e4cea22ce3caf11917b5f6fc17e4ac34be2d"
 metafile = true
 
 [[files]]
+file = "mods/krypton.pw.toml"
+hash = "71ef7cc16632c0039fe194183b5885968c6d740aaa67a58000653ae0cb40b882"
+metafile = true
+
+[[files]]
 file = "mods/lithium.pw.toml"
 hash = "6c681a60f617657bb819dae03d180a92a513908705518480391dfd55783b457a"
 metafile = true
@@ -389,6 +418,11 @@ metafile = true
 [[files]]
 file = "mods/main-menu-credits.pw.toml"
 hash = "2a79f7fb98b7073c926c6f87a93473f5714cf82a2ace7f344e4e2de4a33e0233"
+metafile = true
+
+[[files]]
+file = "mods/make_bubbles_pop.pw.toml"
+hash = "40174cb777a6d12ba73a4caa5bbf961fc89785413bb78369101624c635b4c378"
 metafile = true
 
 [[files]]
@@ -438,7 +472,7 @@ metafile = true
 
 [[files]]
 file = "mods/shulkerboxtooltip.pw.toml"
-hash = "d43f7ae48849de79e3610710f46299e155a1a76752b85ceba9565f3085038545"
+hash = "d218247024325dc0931a0cd7903f026016df430ed90a409243595cd373fe37be"
 metafile = true
 
 [[files]]
