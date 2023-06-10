@@ -8,6 +8,7 @@ jobs:
     outputs:
       name: ${{ steps.info.outputs.name }}
       version: ${{ steps.info.outputs.version }}
+      minecraft: ${{ steps.info.outputs.minecraft }}
       sha: ${{ steps.info.outputs.sha }}
       package: ${{ steps.info.outputs.package }}
     steps:
@@ -26,9 +27,11 @@ jobs:
             echo "::set-output name=name::$name"
             version=`stoml pack.toml version`
             echo "::set-output name=version::$version"
+            minecraft=`stoml pack.toml versions.minecraft`
+            echo "::set-output name=minecraft::$minecraft"
             sha=`echo $GITHUB_SHA | cut -c 1-7`
             echo "::set-output name=sha::$sha"
-            package=${name}-${version}-rev.${sha}
+            package=${name}-${version}
             echo "::set-output name=package::$package"
   build:
     runs-on: ubuntu-latest
@@ -98,12 +101,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Download modpack
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@fv2
         with:
           name: Modpack
       - name: Create release
         uses: softprops/action-gh-release@v1
         with:
+          name: ${{ needs.info.outputs.name }} ${{ needs.info.outputs.version }} for ${{ needs.info.outputs.minecraft }}
           body_path: CHANGELOG.md
           files: |
             ${{ needs.info.outputs.package }}.zip
