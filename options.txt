@@ -22,7 +22,7 @@ toggleCrouch:false
 toggleSprint:false
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
-mouseSensitivity:1
+mouseSensitivity:0.5
 fov:1.0
 screenEffectScale:0.2
 fovEffectScale:0.4472135988319588

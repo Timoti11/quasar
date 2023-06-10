@@ -433,12 +433,12 @@ metafile = true
 
 [[files]]
 file = "mods/rrls.pw.toml"
-hash = "0f4d4c530e9ef67b3a4744f45e2480d41cdb6bcdce40e828cccfb37e0a97cd33"
+hash = "c5229fd4dd48f20246e0226e532fe95a2da779eb796bf44ac4636b62feb260e7"
 metafile = true
 
 [[files]]
 file = "mods/shulkerboxtooltip.pw.toml"
-hash = "d493589a9743da84d5f7667dd418793870bb928cd0fcc72d59b98ad4f2dfe5c0"
+hash = "d43f7ae48849de79e3610710f46299e155a1a76752b85ceba9565f3085038545"
 metafile = true
 
 [[files]]
@@ -468,7 +468,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "4dbd3da997d6bfb8e120ea5f341bda831600745fc0ed1e5a9f4100c1e5c26a4d"
+hash = "adaff427aef16c7076d7e6c74338585633335b5ecbf2bf1e5ab3827f8edfdc6d"
 
 [[files]]
 file = "resourcepacks/Icons.pw.toml"
