@@ -58,8 +58,6 @@ jobs:
       - name: Prepare files
         run: |
           readonly files=(
-            ./config/custom-hud/profile1.txt
-            ./config/custom-hud/profile2.txt
             ./config/isxander-main-menu-credits.json
           )
           for file in "${files[@]}"; do
@@ -78,7 +76,6 @@ jobs:
            -O .temp/packwiz-installer-bootstrap.jar
       - name: Export Modpack
         run: |
-          packwiz curseforge export -o .output/${{ needs.info.outputs.package }}.curseforge.zip
           packwiz modrinth export -o .output/${{ needs.info.outputs.package }}.mrpack
 
           pack=file://`realpath pack.toml`
@@ -110,7 +107,6 @@ jobs:
           body_path: CHANGELOG.md
           files: |
             ${{ needs.info.outputs.package }}.zip
-            ${{ needs.info.outputs.package }}.curseforge.zip
             ${{ needs.info.outputs.package }}.mrpack
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
