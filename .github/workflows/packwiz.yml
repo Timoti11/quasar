@@ -134,4 +134,4 @@ jobs:
           AUTHOR_URL: "https://modrinth.com/modpack/quasar/version/${{ needs.info.outputs.version }}"
           AUTHOR_NAME: "Скачать с Modrinth"
           AUTHOR_AVATAR: "https://i.imgur.com/pEilWJt.png"
-          CONTENT: "<@1090818585523388476>"
+          CONTENT: "<@&1090818585523388476>"
