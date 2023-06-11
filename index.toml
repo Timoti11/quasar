@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = ".github/workflows/packwiz.yml"
-hash = "240af0f172e77eaa4e9e0f7a7318c78d3ac76674f897028e7128f3ec444dc1d9"
+hash = "82697d37e6fb0923f7f7d9f4beb4742ceb6d68e81e7d7bf942e0c7f44f496166"
 
 [[files]]
 file = "CHANGELOG.md"
@@ -98,7 +98,7 @@ hash = "80988bf424720b4fe1b3143a286dcb75c511f5e8fb17951b3c0cd033b46d47a0"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "fac871fb796d8a75f38f517a5d3b73413f3d6e49bd65a21cdf0fdeb06adf1fc1"
+hash = "aa2bd462f05647680d0f41d619de98cf2023a42c2c0f8208d9d0a7ee14a96f10"
 
 [[files]]
 file = "config/lithium.properties"
@@ -491,6 +491,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "a84a9659a0a98151a24a0735b6e8dc2642f61cdabdf99138cdba1e1fc08d2e24"
+metafile = true
+
+[[files]]
+file = "mods/sort.pw.toml"
+hash = "42952d279cff2b03fc4f326f2c21f9035d99b2fc57cb5ac1f5ae5dd75885124e"
 metafile = true
 
 [[files]]
