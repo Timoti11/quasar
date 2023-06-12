@@ -384,6 +384,11 @@ hash = "49a42a2456b0d0024bb61afdfeb279c51d581901fbd59a4d00ff772b206fefaa"
 metafile = true
 
 [[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "b2b0ad206637c53e64311185758dd34cb1871890e9b70e843eee5c4d085426be"
+metafile = true
+
+[[files]]
 file = "mods/fabricskyboxes.pw.toml"
 hash = "c9f89c942de9c4e778084b56ed4767bf2ec5d30894da7c3edea584b702cf35a3"
 metafile = true
@@ -436,6 +441,11 @@ metafile = true
 [[files]]
 file = "mods/modmenu.pw.toml"
 hash = "728d46b605885ad0ec57968f7d6b1c926d93fcca3b235dda272f0ed02701cf83"
+metafile = true
+
+[[files]]
+file = "mods/no-resource-pack-warnings.pw.toml"
+hash = "c8df23a6f0bd41d2f562b460e94bb3df7df1932298bf7b5081e43dfd7c270fae"
 metafile = true
 
 [[files]]
@@ -494,11 +504,6 @@ hash = "a84a9659a0a98151a24a0735b6e8dc2642f61cdabdf99138cdba1e1fc08d2e24"
 metafile = true
 
 [[files]]
-file = "mods/sort.pw.toml"
-hash = "42952d279cff2b03fc4f326f2c21f9035d99b2fc57cb5ac1f5ae5dd75885124e"
-metafile = true
-
-[[files]]
 file = "mods/starlight.pw.toml"
 hash = "218f67d6bcaae849582618cd3e5eb1d4cac0fd6045115f64340620300e160c11"
 metafile = true
@@ -515,7 +520,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "adaff427aef16c7076d7e6c74338585633335b5ecbf2bf1e5ab3827f8edfdc6d"
+hash = "6c85b13cd45e2ef9581f3d9bcf88687f3ec78e013585567a4cd58395dae4bd80"
 
 [[files]]
 file = "resourcepacks/Icons.pw.toml"
@@ -573,22 +578,22 @@ hash = "4cc7a59051b0d68fcaf5285b3ef1cbaeeecffec0e7dd477709fa23bad7bdd86c"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "4b3799485e352607d3b1b41c94dac24ed7de7232ae0a3b602140976857595b9e"
+hash = "474f3a0e2c3845f535173699c742b369ba6f1350ffb4ba76b4d3b152fd980ccb"
 metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-reimagined_z.pw.toml"
-hash = "82c3f0e5bb76f80cc442bc9653f9646396cc65c1f547fc6107e20b4b23929d99"
+hash = "42e1442ae60318ef10a79219127d496b82510898cb21738dc0fb54863f51e9a7"
 metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-shaders-v4.pw.toml"
-hash = "dd39dd36f07c3e9f305340ed47c6cae4ab4d02bc1b6e9bc4aacf6dca73a2488f"
+hash = "852214880370ae63d1eeb65a3ae4be98538e3cddee285658beb074e3c758135f"
 metafile = true
 
 [[files]]
 file = "shaderpacks/rethinking-voxels.pw.toml"
-hash = "169b47845eb17217ea5c5db4eb10ac46e6fc7ee9107a9ceac3809fc575c08956"
+hash = "4de0f3cbbfb9ed7cb5dc4c94364b158fa46e02c2e5e7a267a97bfccae112004b"
 metafile = true
 
 [[files]]
