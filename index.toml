@@ -444,6 +444,11 @@ hash = "40174cb777a6d12ba73a4caa5bbf961fc89785413bb78369101624c635b4c378"
 metafile = true
 
 [[files]]
+file = "mods/map-tooltip.pw.toml"
+hash = "9a632f5f26970ffc17b21f2f09b5409d9bf274a42d1a0099d91e865993e6e471"
+metafile = true
+
+[[files]]
 file = "mods/modmenu.pw.toml"
 hash = "728d46b605885ad0ec57968f7d6b1c926d93fcca3b235dda272f0ed02701cf83"
 metafile = true
