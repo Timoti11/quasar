@@ -559,17 +559,12 @@ hash = "56018af530097bdb7f4cce9734287e7c86b321f5402af2b1f633b277ccbcd6f6"
 
 [[files]]
 file = "resourcepacks/Icons.pw.toml"
-hash = "13ce87c6b267eaaa11bb4dbc059e811af83ff568be19e072a5f240bcb19f795e"
+hash = "b4bd750567f0c1fc9a94047e3b2303fbc26c25e31512c9e9cc49e3979eebba45"
 metafile = true
 
 [[files]]
 file = "resourcepacks/default-dark-mode.pw.toml"
 hash = "1de5f2bf9632a9bfb2576a95711155fb72d4dc9825d767615465fe58cd6bd588"
-metafile = true
-
-[[files]]
-file = "resourcepacks/glowing-armor-trims-countxd.pw.toml"
-hash = "406e2e03d8e87b208061c3cd1c12bb73ead4ac2609889323c9669a9ab4723ca8"
 metafile = true
 
 [[files]]
