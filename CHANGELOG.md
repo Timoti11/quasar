@@ -1,18 +1,25 @@
 **New mods:**
-- [KEFCLSMF](https://modrinth.com/mod/forcecloseworldloadingscreen)
+- Remove Reloading Screen
 
 **1.19.4 to 1.20 updated mods**
-- [AmbientSounds](https://modrinth.com/mod/ambientsounds)
-- [Blur](https://modrinth.com/mod/blur-fabric)
-- [CIT Resewn](https://modrinth.com/mod/cit-resewn)
-- [CreativeCore](https://modrinth.com/mod/creativecore)
-- [Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures)
-- [Krypton](https://modrinth.com/mod/krypton)
-- [Make Bubbles Pop](https://modrinth.com/mod/make_bubbles_pop)
+- AppleSkin
+- Language Reload
+- Eating Animation
+- Stendhal
+- 3D Skin Layers
+- Language Reload
+- Map Tooltip
+- More Culling
+- No Resource Pack Warnings
+- Status Effect Bars
+- Stendhal
+- Symbol Chat
+- Fabric Language Kotlin
 
-**Fixes**
-- The mouse sensitivity value was restored to standard values
+**1.19.4 to 1.20 updated RPs**
+- xali's Enchanted Books
+- xali's Potions
 
 **Updates:**
-- All mods have been updated
-- RRLS config updated
+- All moda updated
+- **Esc logo updated**
