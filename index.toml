@@ -6,7 +6,7 @@ hash = "17075aecb3801c98e38be70fb08cea030e5e09dd3b0bc0416c85186e4f744aa9"
 
 [[files]]
 file = "CHANGELOG.md"
-hash = "da9fae7a5df19759a10c8b96d8736ccd3577de8e28364fff7d0a8726dcdc46f5"
+hash = "087fa899294496cf4efb7cabcbe499e7a309a1364019da4ddad704c531d0197a"
 
 [[files]]
 file = "README.md"
@@ -366,11 +366,6 @@ metafile = true
 [[files]]
 file = "mods/dcch.pw.toml"
 hash = "25c1e19f3132bbc85fffd9d0e720c0476af408f3945dbc853b39d35ddeb53f13"
-metafile = true
-
-[[files]]
-file = "mods/debugify.pw.toml"
-hash = "379951c510f79c9cd7f9cbb50ba80f80215e1c7c0d78906cf5a9ada5479f30cf"
 metafile = true
 
 [[files]]
