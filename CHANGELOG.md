@@ -1,2 +1,1 @@
-Hot Fix! Eliminated the problem with the inability to break the block.
-- removed "Debugify"
+[Full update commit](https://github.com/Timoti11/quasar/commit/49f7bf2526c6cfa31ff8d408ad68688ed76fe9cd)
