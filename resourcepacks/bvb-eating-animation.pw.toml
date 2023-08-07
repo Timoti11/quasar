@@ -1,0 +1,13 @@
+name = "Eating Animation - BetterVanillaBuilding Addon"
+filename = "BVB Eating Animations.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/WrYPcViD/versions/qfQU2Hxd/BVB%20Eating%20Animations.zip"
+hash-format = "sha1"
+hash = "ecb948f882cc3e267656198ab7f70417d669d59d"
+
+[update]
+[update.modrinth]
+mod-id = "WrYPcViD"
+version = "qfQU2Hxd"
