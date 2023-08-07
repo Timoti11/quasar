@@ -334,11 +334,6 @@ hash = "6869de1ca55dc09beabb3c234727e84be4d4fbdcbad2c8081c03010713f374e1"
 metafile = true
 
 [[files]]
-file = "mods/auto-third-person.pw.toml"
-hash = "ac9902b13c6cfa1e4ccb03a5c073be31de01c89f6f8ad3a88a909933fb69056d"
-metafile = true
-
-[[files]]
 file = "mods/betterf3.pw.toml"
 hash = "ba31b113733abc813e36738bdc8104fad628232d29907f66f48cf8c45299de9f"
 metafile = true
@@ -346,11 +341,6 @@ metafile = true
 [[files]]
 file = "mods/blur-fabric.pw.toml"
 hash = "5f53eb8d272bfec2c6f58d6d744397b8152d7561a370f1d6e7e1e495fc4a1e7a"
-metafile = true
-
-[[files]]
-file = "mods/borderless-mining.pw.toml"
-hash = "c49d42cddfb05cf5e4882d5753bd98a525c9a994fda5f49651003e8266b7aa9d"
 metafile = true
 
 [[files]]
@@ -509,11 +499,6 @@ hash = "409d820a08baf91ace8443e3abb9ef8914083b053e1e24cb989419aaef8b3f5d"
 metafile = true
 
 [[files]]
-file = "mods/let-sleeping-dogs-lie.pw.toml"
-hash = "56735004eac1c99294bdf50519040deb071a8b50d4a898a433678bfa4eee8e1a"
-metafile = true
-
-[[files]]
 file = "mods/lithium.pw.toml"
 hash = "c239c951796882b9c93e649a0dba4f2d95804441faaed707b686381b7a5c67da"
 metafile = true
@@ -646,11 +631,6 @@ metafile = true
 [[files]]
 file = "mods/visuality.pw.toml"
 hash = "9b3fd0e07219491269f7977d4b42c3c4c9769f1c99cf1531e612265157ed7071"
-metafile = true
-
-[[files]]
-file = "mods/wavey-capes.pw.toml"
-hash = "9f6d01028472394a8c3120f1e2a0229d09c77069bdca793159fecc6074aae394"
 metafile = true
 
 [[files]]
