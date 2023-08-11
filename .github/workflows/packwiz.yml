@@ -126,7 +126,7 @@ jobs:
           DISCORD_AVATAR: https://i.imgur.com/tFjuB4b.png
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           MESSAGE_TITLE: "${{ needs.info.outputs.name }} ${{ needs.info.outputs.version }} for ${{ needs.info.outputs.minecraft }} - "
-          MESSAGE_URL: null
+          MESSAGE_URL: "https://modrinth.com/modpack/quasar/version/${{ needs.info.outputs.version }}"
           MESSAGE_DESCRIPTION: "**[Modrinth release page](https://modrinth.com/modpack/quasar/version/${{ needs.info.outputs.version }})**\n**[GitHub release page](https://github.com/Timoti11/quasar/releases/tag/v${{ needs.info.outputs.version }})**"
           MESSAGE_COLOR: 5814783
           FOOTER_TEXT: "by Timoti11"
