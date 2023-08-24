@@ -10,7 +10,7 @@
 
 **Fixes**
 - Weather details were not turned off by default
-- Fix overlapping item textures
+- Fix overlapping item textures in hand
 
 **Features**
 - Easy map viewing in boat
