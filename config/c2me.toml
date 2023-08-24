@@ -98,4 +98,14 @@ globalExecutorParallelism = 2
 	# (may cause incompatibility with other mods)
 	# 
 	useEndBiomeCache = true
+[clientSideConfig]
 
+	[clientSideConfig.modifyMaxVDConfig]
+		enabled = false
+
+[noTickViewDistance]
+	compatibilityMode = false
+	maxConcurrentChunkLoads = 1
+	
+[ioSystem]
+	gcFreeChunkSerializer = true

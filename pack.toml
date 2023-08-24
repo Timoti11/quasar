@@ -1,12 +1,12 @@
 name = "Quasar"
 author = "Timoti11"
-version = "2.1.0"
+version = "2.1.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "b3991553aa08a83a83783356a0c7f1651b51f5f5753381365aefc669a2d039c7"
+hash = "1c5f3a6006c944ea4cfe33058222bebe8e14ff3534a6313f8fe056e66f2f4c35"
 
 [versions]
 minecraft = "1.20.1"

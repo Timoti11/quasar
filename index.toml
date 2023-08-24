@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = ".github/workflows/packwiz.yml"
-hash = "17075aecb3801c98e38be70fb08cea030e5e09dd3b0bc0416c85186e4f744aa9"
+hash = "e674d2417e9af2834ab809977b11f5a34990a269625054ffa93f1459eb917698"
 
 [[files]]
 file = "CHANGELOG.md"
-hash = "230b5652cd6e6587399f8234cc92e1a574f08a0cf8cbfcb4a1bb781952c8855f"
+hash = "7272b125018b1ef1df57e187f32c2aa94bef0416e600ba9fca98f6995f9a3741"
 
 [[files]]
 file = "README.md"
@@ -46,7 +46,7 @@ hash = "9615c01d16da924eca042352df43f1968ffc3389a53f024ca34c2cbff45b6263"
 
 [[files]]
 file = "config/c2me.toml"
-hash = "c77bd2395476b35c0f31cac8af99e8a884966d4dc98b6e73076d28940c50004e"
+hash = "ea2e3d0767895725ba0fd3196b9a45aaf4a3bbaa93b1078c84c343ed66e6209a"
 
 [[files]]
 file = "config/chat_heads.json5"
@@ -90,7 +90,7 @@ hash = "7f8ac18954365d88f0f4379d05a088fbb4a3000b4749c75fca12c9e377fd7ea8"
 
 [[files]]
 file = "config/ferritecore.mixin.properties"
-hash = "647c97bf8ba08a082324b85ed87ae43356109953b4140fe57847cf7b97448ecd"
+hash = "0af02431f84f727cc8818a31827a727d1c9f0047bbe55bd6fd27c9e34a7d745c"
 
 [[files]]
 file = "config/held-item-info.json"
@@ -102,7 +102,7 @@ hash = "80988bf424720b4fe1b3143a286dcb75c511f5e8fb17951b3c0cd033b46d47a0"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "8f4c7b003fc38fc8935a81cae9d66b632eb1cbb1e02b3c93b603cd49dee02ddb"
+hash = "d3b79fd5d1176e3dcc42ca84edf24932dbe5a4989a291e35777cbc625ef4db4f"
 
 [[files]]
 file = "config/lithium.properties"
@@ -111,6 +111,10 @@ hash = "b099d76bcdc3a4ef7949b91189f05470d3301fc66f8559b9dc159c3c2791509a"
 [[files]]
 file = "config/midnightlib.json"
 hash = "e5f4df9df0ae9974b665296e570ffbe3326350749a7afb759f7c74dfa9efa317"
+
+[[files]]
+file = "config/modernfix-mixins.properties"
+hash = "ab0c1421253b24b4b81a995a17a6be7400f21eac5239da37ddce676086832ffa"
 
 [[files]]
 file = "config/modmenu.json"
@@ -157,12 +161,20 @@ file = "config/smoothboot.json"
 hash = "46c03d9c26e6bfa354f3b2408a9665f14489f54ab9c0e2687ac21a1e2173e9b3"
 
 [[files]]
+file = "config/sodium-extra-options.json"
+hash = "696c2928c0cb1e19160634cb05c6697f036863a90f2a4575b3ca150974f693f5"
+
+[[files]]
 file = "config/sodium-extra.properties"
 hash = "ab259e2369fc503c0cd905ec9b57b5867f4dbd249edf7a2b52193b36ffbcdeab"
 
 [[files]]
 file = "config/sodium-mixins.properties"
 hash = "b35b099a51f0cc1cfd94b1a1444de0d0d0c4e1b3399575504bbdcfaf02c359b0"
+
+[[files]]
+file = "config/sodium-options.json"
+hash = "37f6ba93d9ac6d691fe98d43c13da9e04168f14bcdbb66531542e8477f9f6968"
 
 [[files]]
 file = "config/tr7zwDonorSettings.json"
@@ -344,6 +356,16 @@ hash = "5f53eb8d272bfec2c6f58d6d744397b8152d7561a370f1d6e7e1e495fc4a1e7a"
 metafile = true
 
 [[files]]
+file = "mods/boat-item-view.pw.toml"
+hash = "45ef79853a6e968323dadc477f2b68c046948a9e5b2445fed3ab5586598347cf"
+metafile = true
+
+[[files]]
+file = "mods/bobby.pw.toml"
+hash = "628ca822826f31018f97293b673e09defe9bc46616a7636bbd4a3b51ee4c9949"
+metafile = true
+
+[[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "d4e882278d0a8d863a069df56f6e473e81e79c48f8cc6e700a56f297847178ca"
 metafile = true
@@ -356,6 +378,11 @@ metafile = true
 [[files]]
 file = "mods/chat-heads.pw.toml"
 hash = "7293ab05ee73400787ba9c31d4c59884d252dcc170880602e8e8da64dcf3f765"
+metafile = true
+
+[[files]]
+file = "mods/chatanimation.pw.toml"
+hash = "e356d9d8e4ce9d6e31237ef04cbba2590c7d7be58dfdb103dee7f4fd7685f152"
 metafile = true
 
 [[files]]
@@ -454,6 +481,11 @@ hash = "c24e05bc69b5e571da13b6f854c89ea093deab2b74b1bd3e8f17113a2f01c07e"
 metafile = true
 
 [[files]]
+file = "mods/hold-that-chunk.pw.toml"
+hash = "8847ebb401a474d65b2ffd00a226356e94791db3f5cf98505beb227e74298884"
+metafile = true
+
+[[files]]
 file = "mods/iceberg.pw.toml"
 hash = "a4d47f10df4769734a850e6a2cd7342802f92f5e269b27464c86cfd0b5a2182f"
 metafile = true
@@ -521,6 +553,21 @@ metafile = true
 [[files]]
 file = "mods/memoryleakfix.pw.toml"
 hash = "97ffbc7d0e4087777c5e3732780f01958f99d44c4f09fd534bbb8f239d4980a1"
+metafile = true
+
+[[files]]
+file = "mods/mixintrace.pw.toml"
+hash = "b89656eaf7e4404d8d2c5b1e1155aae85a839939f83cab6d1b5e791412ad5f86"
+metafile = true
+
+[[files]]
+file = "mods/modelfix.pw.toml"
+hash = "6c417b19bc836d7c516be0097261c49cf1a167951bb4744ec0f3cc0bd0d1d24a"
+metafile = true
+
+[[files]]
+file = "mods/modernfix.pw.toml"
+hash = "8c5609126c7a8d38b68c4df16f9e505c5aacdeda05d7a55cb661872db3831ae4"
 metafile = true
 
 [[files]]
@@ -629,6 +676,11 @@ hash = "d54c8655b93f5b267605b77505f9e4dc63c479b300aae97a88e163029d65b6fc"
 metafile = true
 
 [[files]]
+file = "mods/threadtweak.pw.toml"
+hash = "bb044cd95d56fb9e1f52a8c18a843df8daf56d22a822568112e9dfa28dab7926"
+metafile = true
+
+[[files]]
 file = "mods/visuality.pw.toml"
 hash = "9b3fd0e07219491269f7977d4b42c3c4c9769f1c99cf1531e612265157ed7071"
 metafile = true
@@ -705,7 +757,7 @@ hash = "cf2a011dafab2369588f9b03360081c66b129c3e97ada3facd54384a3fa6c612"
 
 [[files]]
 file = "shaderpacks/[Timoti11] ComplementaryReimagined_r2.0.3.zip.txt"
-hash = "685633983a20c4594869772d0142f245a657032702cf6cba1cd84128cc393e9b"
+hash = "94c08bceedc16d02e7dac9f0191ea66b904d1da194ede2ec666ea31029867da5"
 
 [[files]]
 file = "shaderpacks/[ZapahKleya] ComplementaryReimagined_r2.0.3.zip.txt"
@@ -713,17 +765,17 @@ hash = "4cc7a59051b0d68fcaf5285b3ef1cbaeeecffec0e7dd477709fa23bad7bdd86c"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "03a6e36103a166702537a9d8c30eb653f618da4dc8c24b8c433b828b754ef39b"
+hash = "100499129b5732b9eacaf6c03c84e4ff1109f84bcc550c327179effd982e6417"
 metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-reimagined_z.pw.toml"
-hash = "34cffe364391918bd70de84459beda0780a985b104992ec75ee65e6609ebd13e"
+hash = "42e1442ae60318ef10a79219127d496b82510898cb21738dc0fb54863f51e9a7"
 metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-shaders-v4.pw.toml"
-hash = "dd39dd36f07c3e9f305340ed47c6cae4ab4d02bc1b6e9bc4aacf6dca73a2488f"
+hash = "852214880370ae63d1eeb65a3ae4be98538e3cddee285658beb074e3c758135f"
 metafile = true
 
 [[files]]
