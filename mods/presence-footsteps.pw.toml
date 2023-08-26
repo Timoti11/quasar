@@ -1,4 +1,4 @@
-name = "Presence Footsteps"
+name = "Presence Footsteps [Fabric]"
 filename = "PresenceFootsteps-1.9.0.jar"
 side = "client"
 
@@ -8,6 +8,9 @@ hash-format = "sha1"
 hash = "e5ea35c6c326e6f5e6fe2a8af7cbc6a955515dbc"
 
 [update]
+[update.curseforge]
+file-id = 4575802
+project-id = 334259
 [update.modrinth]
 mod-id = "rcTfTZr3"
 version = "FMF3yzCR"
