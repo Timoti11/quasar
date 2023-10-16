@@ -1,13 +1,16 @@
 name = "Falling Leaves (Fabric)"
-filename = "fallingleaves-1.15.2+1.20.1.jar"
+filename = "fallingleaves-1.15.1+1.20.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/WhbRG4iK/versions/8qK6ANpJ/fallingleaves-1.15.2%2B1.20.1.jar"
+url = "https://cdn.modrinth.com/data/WhbRG4iK/versions/HMfGMPn2/fallingleaves-1.15.1%2B1.20.1.jar"
 hash-format = "sha1"
-hash = "4b3873f07b20f3a617628027c4de82e33527ffce"
+hash = "cb4a711f3e611b5a618866566ba9590d25d8261b"
 
 [update]
+[update.curseforge]
+file-id = 4591160
+project-id = 417510
 [update.modrinth]
 mod-id = "WhbRG4iK"
-version = "8qK6ANpJ"
+version = "HMfGMPn2"
