@@ -1,13 +1,13 @@
 name = "Ore Variants"
-filename = "Ore Variants v2.8.zip"
+filename = "Ore Variants v2.9.zip"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/LgvDiFDR/versions/KjtCLZkq/Ore%20Variants%20v2.8.zip"
+url = "https://cdn.modrinth.com/data/LgvDiFDR/versions/PuZ17n5T/Ore%20Variants%20v2.9.zip"
 hash-format = "sha1"
-hash = "9103be3e17bed9ec3776d1be0925c1075364fcea"
+hash = "a055f13f78c29dfa6b6c9b8630723243d779c759"
 
 [update]
 [update.modrinth]
 mod-id = "LgvDiFDR"
-version = "KjtCLZkq"
+version = "PuZ17n5T"
