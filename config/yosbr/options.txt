@@ -1,5 +1,5 @@
 version:3465
-quilt_available_resource_packs:["continuity/default","continuity/glass_pane_culling_fix","file/xali\u0027s Enhanced Jungle Wood v1.2.zip","file/xali\u0027s Potions v1.0.zip","file/xali-s-Enchanted-Books-16x-v0.10.1.zip","minecraft/supporteatinganimation","programmer_art","vanilla","file/Icons.zip","file/BVB Eating Animations.zip","file/Default-Dark-Mode-1.20-2023.7.0.zip","file/Ore Variants v2.8.zip","file/xali\u0027s Enhanced Vanilla-1.11.2-rev.aa4dcd3.zip","file/§2§lVisual §a§lLeaf §2§lDecay §7§o1.4 §8.zip","high_contrast"]
+quilt_available_resource_packs:["continuity/default","continuity/glass_pane_culling_fix","file/xali\u0027s Enhanced Jungle Wood v1.2.zip","file/xali\u0027s Potions v1.0.zip","file/xali-s-Enchanted-Books-16x-v0.10.1.zip","minecraft/supporteatinganimation","programmer_art","vanilla","file/Icons.zip","file/BVB Eating Animations.zip","file/Default-Dark-Mode-1.20-2023.7.0.zip","file/xali\u0027s Enhanced Vanilla-1.11.2-rev.aa4dcd3.zip","file/§2§lVisual §a§lLeaf §2§lDecay §7§o1.4 §8.zip","high_contrast","file/Ore Variants v2.9.zip","presencefootsteps/default_sound_pack"]
 autoJump:false
 operatorItemsTab:false
 autoSuggestions:true
@@ -43,7 +43,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:5
 renderClouds:"true"
-resourcePacks:["vanilla","continuity/default","continuity/glass_pane_culling_fix","minecraft/supporteatinganimation","file/Icons.zip","file/xali\u0027s Enhanced Jungle Wood v1.2.zip","file/xali\u0027s Potions v1.0.zip","file/xali-s-Enchanted-Books-16x-v0.10.1.zip","file/BVB Eating Animations.zip","file/Default-Dark-Mode-1.20-2023.7.0.zip","file/Ore Variants v2.8.zip","file/§2§lVisual §a§lLeaf §2§lDecay §7§o1.4 §8.zip"]
+resourcePacks:["vanilla","continuity/default","continuity/glass_pane_culling_fix","minecraft/supporteatinganimation","file/Icons.zip","file/xali\u0027s Enhanced Jungle Wood v1.2.zip","file/xali\u0027s Potions v1.0.zip","file/xali-s-Enchanted-Books-16x-v0.10.1.zip","file/BVB Eating Animations.zip","file/Default-Dark-Mode-1.20-2023.7.0.zip","file/§2§lVisual §a§lLeaf §2§lDecay §7§o1.4 §8.zip","presencefootsteps/default_sound_pack","file/Ore Variants v2.9.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:ru_ru
