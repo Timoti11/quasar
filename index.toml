@@ -81,6 +81,10 @@ file = "config/rrp.properties"
 hash = "1aad61cdce6b8fc986756a15cbe57a93d6f3c10abf64d259fdd8d565c5c928a1"
 
 [[files]]
+file = "config/skinlayers.json"
+hash = "023a3275203cfecc8d4eafe544b41683221b5094723e12cefd37124e3f488efd"
+
+[[files]]
 file = "config/smoothboot.json"
 hash = "bc07be95a3be930e8343305b89151b258308ff12539b624a300c117515f34166"
 
@@ -250,7 +254,7 @@ hash = "53577330cc834751f258023ceb7316b62be9b1a448ec88814377bc7de09148a2"
 
 [[files]]
 file = "config/yosbr/config/skinlayers.json"
-hash = "b0ca2818b56ce84e2f5a0febc5bbc3df41503d26c2f3a210839c2f5ba0b854ac"
+hash = "023a3275203cfecc8d4eafe544b41683221b5094723e12cefd37124e3f488efd"
 
 [[files]]
 file = "config/yosbr/config/smoothswapping.json"
@@ -286,7 +290,7 @@ hash = "cc85327a8d07677081a9c1dd23eccefe4c926c26d5d269db7735b3a5a3fd9a29"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "b98e1ffa15040821cfaf66b608fad706b37bcb65686c45b6b04a7dcc26f8d400"
+hash = "58ae5067eef85125999fc9c1e7b4b49e51f467d347615a30f368449412179cdc"
 
 [[files]]
 file = "icon.png"
@@ -340,11 +344,6 @@ metafile = true
 [[files]]
 file = "mods/bobby.pw.toml"
 hash = "628ca822826f31018f97293b673e09defe9bc46616a7636bbd4a3b51ee4c9949"
-metafile = true
-
-[[files]]
-file = "mods/borderless-mining.pw.toml"
-hash = "9c41945259ce318b0d675c7d63bef23261eb60fe3de897d32040e24e90a26302"
 metafile = true
 
 [[files]]
@@ -423,11 +422,6 @@ hash = "4ba45966a267b774f5d83442c3c43d740f55e11a910e117e50c046b4f77b5c66"
 metafile = true
 
 [[files]]
-file = "mods/dynamic-fps.pw.toml"
-hash = "6e6ee1bf66d6977728d3bf5404338c87a0a4ad5260833efcd912aaaca776cf8f"
-metafile = true
-
-[[files]]
 file = "mods/eating-animation.pw.toml"
 hash = "073795fff0829c88707bdd7774faa544034d6a6ea375f1366b5220047450cfc3"
 metafile = true
@@ -499,7 +493,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "1ef40993b8abff2b77e3f5f59874e6de0348e4c39f6b8e5561fa672a8b1c5c0b"
+hash = "cdfba6239ea3dd9c111ebdca03626c3f179f7794ee146d0f043a82064ea39be1"
 metafile = true
 
 [[files]]
@@ -779,22 +773,22 @@ file = "shaderpacks/[Mazon_Alex] ComplementaryShaders_1.19_v4.7.1.zip.txt"
 hash = "cf2a011dafab2369588f9b03360081c66b129c3e97ada3facd54384a3fa6c612"
 
 [[files]]
-file = "shaderpacks/[Timoti11] ComplementaryReimagined_r5.1.1.pw.toml"
-hash = "c9c728a4fb0c1f8aa9d9257abdb093ba46d52f9a0535b8fe5bc7ede2b3316e69"
+file = "shaderpacks/[Timoti11] ComplementaryReimagined_r2.3.pw.toml"
+hash = "866918d89d049bad66735079dbaa4b7565545b1ec510d124d95c1277ccb93f05"
 metafile = true
 
 [[files]]
-file = "shaderpacks/[Timoti11] ComplementaryReimagined_r5.1.1.zip.txt"
-hash = "4308a7d032f9cf17f9234d59e3cb47a30aed1b52c0f93b694482a421c7e5fcde"
+file = "shaderpacks/[Timoti11] ComplementaryReimagined_r2.3.zip.txt"
+hash = "e64eba7d3105adec78b2c5996e773f971c03e8d49e898d06426b8a7cd73bbd0d"
 
 [[files]]
-file = "shaderpacks/[Timoti11] {Lite} ComplementaryReimagined_r5.1.1.pw.toml"
-hash = "5357214a2f98c7d7e4754ed41bef2c747084635999b1fc83f7148a1c295ff75f"
+file = "shaderpacks/[Timoti11] {Lite} ComplementaryReimagined_r2.3.pw.toml"
+hash = "25c8a6d31526cd2008b02d277b95fe8a814adb5d7c86632fd776d820733530a6"
 metafile = true
 
 [[files]]
-file = "shaderpacks/[Timoti11] {Lite} ComplementaryReimagined_r5.1.1.zip.txt"
-hash = "7f0bc74adf0876bb57a8eb6785ec7f9082cb0005b7a071808274780caed50cf3"
+file = "shaderpacks/[Timoti11] {Lite} ComplementaryReimagined_r2.3.zip.txt"
+hash = "bd0c11d38fdb2bb994c38cd11f8cefdcd8966984b93c18b8e8ebdea6b8dd8ddc"
 
 [[files]]
 file = "shaderpacks/[ZapahKleya] ComplementaryReimagined_r2.0.3.pw.toml"
