@@ -1,0 +1,11 @@
+name = "ExtraSounds"
+filename = "extrasounds-2.3.1+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://www.dropbox.com/scl/fi/icvpnbb8tdbi18nxehkov/extrasounds-2.3.1-1.20.1.jar?rlkey=v9pm9gs4mr8aww91w16kjez6r&dl=1"
+
+# A number of tools can generate the hash for you, including 7-zip and sha256sum
+# packwiz supports a number of hashes, including sha256, sha512, sha1 and md5
+hash-format = "sha1"
+hash = "d0b02359ae68b7ec5760e47d0ac41b658eb48cc8"
