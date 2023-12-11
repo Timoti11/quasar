@@ -145,6 +145,10 @@ file = "config/yosbr/config/blur.json"
 hash = "9615c01d16da924eca042352df43f1968ffc3389a53f024ca34c2cbff45b6263"
 
 [[files]]
+file = "config/yosbr/config/bobby.conf"
+hash = "5d7701865970d56cbea91c8f01ad921f9c3db34cca3891c69849d8ca1c4d31c3"
+
+[[files]]
 file = "config/yosbr/config/capes.json5"
 hash = "26f7730b69277b55dc6346922a581b76375bb6166e0b132e4539f26cccf059aa"
 
@@ -290,7 +294,7 @@ hash = "cc85327a8d07677081a9c1dd23eccefe4c926c26d5d269db7735b3a5a3fd9a29"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "58ae5067eef85125999fc9c1e7b4b49e51f467d347615a30f368449412179cdc"
+hash = "4aff3b35daf1520719da3f851b51e42cd4bf5ed40b51cd2de535b09083b28ae5"
 
 [[files]]
 file = "icon.png"
@@ -764,13 +768,13 @@ file = "shaderpacks/[Astronicat] Rethinking Voxels.zip.txt"
 hash = "fdf836432a905bbc3ac9a0d56783880da129487db3a6ca7e63f8f512fe22ae02"
 
 [[files]]
-file = "shaderpacks/[Mazon_Alex] ComplementaryShaders_1.19_v4.7.1.pw.toml"
-hash = "852214880370ae63d1eeb65a3ae4be98538e3cddee285658beb074e3c758135f"
+file = "shaderpacks/[Mazon_Alex] ComplementaryShaders_1.19_v4.5.1.pw.toml"
+hash = "837bfbc9e2ce1f44063a01d98fedc6a0f932198ed7b6492cfe1e70a5dfa65ca4"
 metafile = true
 
 [[files]]
-file = "shaderpacks/[Mazon_Alex] ComplementaryShaders_1.19_v4.7.1.zip.txt"
-hash = "cf2a011dafab2369588f9b03360081c66b129c3e97ada3facd54384a3fa6c612"
+file = "shaderpacks/[Mazon_Alex] ComplementaryShaders_1.19_v4.5.1.zip.txt"
+hash = "a384ef943ada47872407ef7163de69907e3c02e59fb5f64f93794c7f24997495"
 
 [[files]]
 file = "shaderpacks/[Timoti11] ComplementaryReimagined_r2.3.pw.toml"
