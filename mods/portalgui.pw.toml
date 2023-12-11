@@ -1,13 +1,13 @@
 name = "Portal GUI"
-filename = "PortalGUI-1.0.jar"
+filename = "PortalGUI-1.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/yElQAQWk/versions/35gCkqgj/PortalGUI-1.0.jar"
+url = "https://cdn.modrinth.com/data/yElQAQWk/versions/Ejf4vmHa/PortalGUI-1.1.jar"
 hash-format = "sha1"
-hash = "813f40393837f26c0831c9c1bdc7778ea197607b"
+hash = "140a03848c765a5d9c821a3608190a3e18bdf2ce"
 
 [update]
 [update.modrinth]
 mod-id = "yElQAQWk"
-version = "35gCkqgj"
+version = "Ejf4vmHa"

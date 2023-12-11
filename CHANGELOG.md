@@ -1,22 +1,25 @@
 **New mods:**
-- [Boat Item View](https://modrinth.com/mod/boat-item-view)
-- [Bobby](https://modrinth.com/mod/bobby)
-- [ChatAnimation](https://modrinth.com/mod/chatanimation)
-- [Hold That Chunk](https://modrinth.com/mod/hold-that-chunk)
-- [MixinTrace](https://modrinth.com/mod/mixintrace)
-- [Model Gap Fix](https://modrinth.com/mod/modelfix)
-- [ModernFix](https://modrinth.com/mod/modernfix)
-- [ThreadTweak](https://modrinth.com/mod/threadtweak)
+- [Server Pinger Fixer](https://modrinth.com/mod/serverpingerfixer)
+- [Smooth Boot](https://modrinth.com/mod/smoothboot-fabric)
+- [MoreChatHistory](https://modrinth.com/mod/morechathistory)
+- [LazyDFU](https://modrinth.com/mod/lazydfu)
+- [Exordium](https://modrinth.com/mod/exordium)
+- [Dark Loading Screen](https://modrinth.com/mod/dark-loading-screen)
+- [CustomHud](https://modrinth.com/mod/customhud)
+- [Custom Entity Models](https://modrinth.com/mod/cem)
+- [Animatica](https://modrinth.com/mod/animatica)
+- [Animatica](https://modrinth.com/mod/animatica)
 
 **Fixes**
-- Weather details were not turned off by default
-- Fix overlapping item textures in hand
+- Boost FPS compared to version 2.1.1
 
 **Features**
-- Easy map viewing in boat
-- Save your chunks for high distance
-- Smooth chat send animation
+- Now you don't need to refresh the server list 10 times
+- Convenient fps counter in the upper left corner
+- (experimental) Added [Timoti11] {Lite} shaders without shadows
+- More configs by Sugar Optimization
 
 **Updates:**
-- [Timoti11] Shaders: `2.0.3` => `2.3`
-- some configs
+- [Timoti11] Shaders
+- [Mazon_Alex] Shaders
+- All mods
