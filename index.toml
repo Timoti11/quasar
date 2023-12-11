@@ -516,6 +516,11 @@ hash = "41a3116f5642d40ed54efda3f863373fa4d3c0c3a24a447a38c8a106e9fbb079"
 metafile = true
 
 [[files]]
+file = "mods/item-highlighter.pw.toml"
+hash = "c5d5b857fa70cb5deed260054b9723dc8069635880061d5ba328e1eb684604bf"
+metafile = true
+
+[[files]]
 file = "mods/krypton.pw.toml"
 hash = "3b17a9e472518ca489ab37ab29d8cec66899ca759ef4b4199721c70899ee892d"
 metafile = true
