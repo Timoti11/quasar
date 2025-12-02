@@ -1,13 +1,13 @@
 name = "Quasar"
 author = "Timoti11"
-version = "2.1.2"
+version = "3.10.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "72ce79981f810b896728b742803f8eb3826dba81011f94576d7c6904651103db"
+hash = "7a8749f9158bc6b3586635944b90453e46b7d3a4274bdf393b41d7108677ac74"
 
 [versions]
-minecraft = "1.20.1"
-quilt = "0.22.0"
+fabric = "0.17.3"
+minecraft = "1.21.10"

@@ -1,4 +1,0 @@
-// Please use a different profile file to change!
-==BackgroundColor:0x00000000==
-==Section:TopLeft==
-&bQuasar &f{fps}
