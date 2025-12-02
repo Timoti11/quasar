@@ -1,0 +1,13 @@
+name = "Player Animation Library"
+filename = "PlayerAnimationLibFabric-1.1.1+mc.1.21.9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ha1mEyJS/versions/GiaGzgpa/PlayerAnimationLibFabric-1.1.1%2Bmc.1.21.9.jar"
+hash-format = "sha512"
+hash = "ce65207a9fea99c6b4c5b8a237d0692a09d6ea17986d043ee2857c0cd28f8aa0d61d646ab1b91379395756ca8be45e8abfc909bfcc77c713d778bb8e807d9833"
+
+[update]
+[update.modrinth]
+mod-id = "ha1mEyJS"
+version = "GiaGzgpa"

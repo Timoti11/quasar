@@ -1,0 +1,8 @@
+name = "AdvancementInfo"
+filename = "advancementInfo-1.4.9.jar"
+side = "both"
+
+[download]
+url = "https://www.dropbox.com/scl/fi/9y20v2bg6lyj5tsw0qrwq/advancementInfo-1.4.9.jar?rlkey=md754c5lapftsx1wrv4v00ufk&st=d8ib4kaf&dl=1"
+hash-format = "sha256"
+hash = "0c4bc5eb99649077c74fd07a741185e1a5801be3f5c8d2616d96f5fa01989606"

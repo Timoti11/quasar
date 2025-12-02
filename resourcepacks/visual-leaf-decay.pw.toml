@@ -1,0 +1,13 @@
+name = "Visual Leaf Decay"
+filename = "§2§lVisual §a§lLeaf §2§lDecay §7§o1.4 §8.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/iEQZ8hq3/versions/bJvWoR6f/%C2%A72%C2%A7lVisual%20%C2%A7a%C2%A7lLeaf%20%C2%A72%C2%A7lDecay%20%C2%A77%C2%A7o1.4%20%C2%A78.zip"
+hash-format = "sha512"
+hash = "c17f548c55d16bdabbad7c75974675784edfad54c83025b8c47244b0db4ad14f2bd7645e134584f64f1a1872f3cff4abcd414c3a376ce80b508d0320a8855ab7"
+
+[update]
+[update.modrinth]
+mod-id = "iEQZ8hq3"
+version = "bJvWoR6f"

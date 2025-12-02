@@ -1,0 +1,13 @@
+name = "Simple Flowered Moss"
+filename = "simple-flowered-moss-0.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/IGU4D9TA/versions/hRklNaUr/simple-flowered-moss-0.1.zip"
+hash-format = "sha512"
+hash = "86f87a41cab2b2afc1ddad89cc9a33c1b48f2c4b2689c84ac9359ed1e8bd1e651b3fcebd27f21a722fc466ca3ee5edaac033ae3f4f66b48e94912a340c1e24f9"
+
+[update]
+[update.modrinth]
+mod-id = "IGU4D9TA"
+version = "hRklNaUr"

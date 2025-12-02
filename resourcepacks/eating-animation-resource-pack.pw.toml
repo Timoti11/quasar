@@ -1,0 +1,13 @@
+name = "Eating Animation Resource Pack"
+filename = "Eating Animation.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/xOCLHTN8/versions/j5aFau2n/Eating%20Animation.zip"
+hash-format = "sha512"
+hash = "0ff3a09ca490802c6d98c05b395bae615e1afaf13d3bd6a609298350dad027a768ee2b5df678b67809ce8663cff832171a12cff01343ea313f2475a58ca2f579"
+
+[update]
+[update.modrinth]
+mod-id = "xOCLHTN8"
+version = "j5aFau2n"

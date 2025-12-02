@@ -1,0 +1,13 @@
+name = "AntiGhost-2"
+filename = "AntiGhost-fabric_1_21-1.21.10.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/aM0sduuY/versions/1FGHvoFr/AntiGhost-fabric_1_21-1.21.10.jar"
+hash-format = "sha512"
+hash = "2e1210094a2a99495816badc959b165f2010f8105122aeec35130d432b3bd3a752e8234e06c661f33e932c41b7fd8d05a5984a0e7e90726a352e8513daffbaa8"
+
+[update]
+[update.modrinth]
+mod-id = "aM0sduuY"
+version = "1FGHvoFr"
