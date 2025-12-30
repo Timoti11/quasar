@@ -80,7 +80,7 @@ jobs:
           java-version: '17'
       - name: Download Packwiz Installer
         run: |
-          wget https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar \
+          wget https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.5.14/packwiz-installer-bootstrap.jar \
            -O .temp/packwiz-installer-bootstrap.jar
       - name: Export Modpack
         run: |
@@ -109,6 +109,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: Modpack
+          path: .
       - name: Create release
         uses: softprops/action-gh-release@v1
         with:
