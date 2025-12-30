@@ -1,0 +1,8 @@
+name = "Icons"
+filename = "Icons.zip"
+side = "both"
+
+[download]
+url = "https://www.dropbox.com/scl/fi/e4gogqlnzc5rdgty31z63/Icons.zip?rlkey=joht5yxo7rf23zbvbw2lzwb2i&st=9417rq60&dl=1"
+hash-format = "sha1"
+hash = "5288412dde683414ab3cd5ead7f4c7f0a04c8e7c"

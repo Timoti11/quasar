@@ -17,10 +17,6 @@ file = ".idea/vcs.xml"
 hash = "62be7e0a7f84ab3c35b4d4bafb890a4951d061eadafde1a10aa3f5d0406db5df"
 
 [[files]]
-file = ".idea/workspace.xml"
-hash = "a3505fb7b54060a2ffee0132b9401ce8d6caaceb6f2c910b02bdd2402bd3c0ea"
-
-[[files]]
 file = "config/NoChatReports/NCR-Client.json"
 hash = "32dc5f1d73b05e70f3fc5a18f58c5d81a095484a0f93a1da6d1883966ff4e296"
 
@@ -63,6 +59,10 @@ hash = "972d6cc73dbe7fab84118d89423ed70dec3c20b34494fbb4337b987ad3b2bf6f"
 [[files]]
 file = "config/moreculling.toml"
 hash = "ad9502638dfc64191c82e28efeede417bd4ab32b6276e60117bc978e41b936bd"
+
+[[files]]
+file = "config/simpleupdatechecker_modpack.json"
+hash = "514268c94d1f61f79d7c1c37d0d4b925a3e4158074d94a16cc5b8e414dd2e0c5"
 
 [[files]]
 file = "config/sodium-options.json"
@@ -145,6 +145,10 @@ file = "config/yosbr/config/custom-hud/profile2.txt"
 hash = "775416472480944da710b09587f0090ea5dadc528c1ffea65259bd8bf65e6425"
 
 [[files]]
+file = "config/yosbr/config/customwindowtitle-client.toml"
+hash = "37b1f3203ee0b0b749f34948571cc8e4c975b1d89d848f04d2e3ae2027ea4d5b"
+
+[[files]]
 file = "config/yosbr/config/debugify-descriptions.json"
 hash = "a855ea6bc92dda18227842c053f5ad9236631b8086732559a914ce30e08b91a8"
 
@@ -209,12 +213,20 @@ file = "config/yosbr/config/presencefootsteps/userconfig.json"
 hash = "b1886d8616c1c4abc50edd078684f9bd74ce56ae04eb0ac3f93183e5ac88c2a0"
 
 [[files]]
+file = "config/yosbr/config/quasar-logo.png"
+hash = "27e9bb2869d20f5f2bab21aefe53c6ee270dc1a6db1f592ac39a7a382a45e173"
+
+[[files]]
 file = "config/yosbr/config/quilt/qsl/registry.toml"
 hash = "e779f85c4292306465a258b9fcfbb72c3590b078787ef79e364ee0845b9f9551"
 
 [[files]]
 file = "config/yosbr/config/shouldersurfing.toml"
 hash = "53577330cc834751f258023ceb7316b62be9b1a448ec88814377bc7de09148a2"
+
+[[files]]
+file = "config/yosbr/config/simpleupdatechecker_modpack.json"
+hash = "6ae5c698b9f6c26c0dddb4a5d1d72cb0ac7a6db2417f386067e051ad8eb4b6d2"
 
 [[files]]
 file = "config/yosbr/config/skinlayers.json"
@@ -254,11 +266,11 @@ hash = "cc85327a8d07677081a9c1dd23eccefe4c926c26d5d269db7735b3a5a3fd9a29"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "3bf5231030a5732e1f10de592c347842a8cd1df7b4bc1cd8b27a422313ed36ff"
+hash = "7dcfc77f2298f57130514d63302309ad7e2098936038c7256b881f8b9a54eab6"
 
 [[files]]
 file = "icon.png"
-hash = "e3638851e9d1a3ceb3db1188806338b8736e8dc2f8fc9b522d89e3d36572c890"
+hash = "27e9bb2869d20f5f2bab21aefe53c6ee270dc1a6db1f592ac39a7a382a45e173"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -298,11 +310,6 @@ metafile = true
 [[files]]
 file = "mods/better-block-entities.pw.toml"
 hash = "cb1b225bb04b606ab22b2378048f2e040cff6ba9acdd1013daa054abd606b265"
-metafile = true
-
-[[files]]
-file = "mods/betterf3.pw.toml"
-hash = "59658f3b9d3b86b24440008fd2031c53d538cbb35e84524bcdbc67f0de7ea251"
 metafile = true
 
 [[files]]
@@ -581,6 +588,11 @@ hash = "11db2f1acc702cfc92d43efd8800b4b9db54e3c059ec1d35754618adacffc334"
 metafile = true
 
 [[files]]
+file = "mods/simple-update-checker.pw.toml"
+hash = "d58bc721a42323b47c4e860ed12a8bfd66345a6f59c3ed935889fe2255676326"
+metafile = true
+
+[[files]]
 file = "mods/smooth-scroll.pw.toml"
 hash = "93d394fd47f78b85e46914e0066ec63989146d5ea58a1549ee8df42a01a9d7e7"
 metafile = true
@@ -646,6 +658,11 @@ hash = "4f1cc8f464840823aa2fac9c0653977d6d43c94d2cf9f90cf92e9f9b4da70f65"
 metafile = true
 
 [[files]]
+file = "resourcepacks/icons.pw.toml"
+hash = "aab0f4b5438ed9c9b7c8503839d5f90651593920441b041bd553198620735402"
+metafile = true
+
+[[files]]
 file = "resourcepacks/ore-variants.pw.toml"
 hash = "81942f1803f4504c90ad855aba4cadaafd3cfedfe8c0ec623e4abed0b8b02075"
 metafile = true
@@ -671,9 +688,21 @@ hash = "fa7a1393c11f2be2e90e001f2c031352577aa38edd927193b541594ff5b55947"
 metafile = true
 
 [[files]]
-file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "531a8d239c952428d9a633ff99cb03461656ada28decbe2e1ef19f60f7fd5726"
+file = "shaderpacks/[Timoti11] complementary-reimagined.pw.toml"
+hash = "88bc3d9943783d9c4b7eca0d68ecc90c93faded85ddbf15b5c04ee4c53dc03ef"
 metafile = true
+
+[[files]]
+file = "shaderpacks/[Timoti11] complementary-reimagined.zip.txt"
+hash = "bc0f01440d53aded209be5e32349737c5eaeb6d2a0c6bfbe45aba22733f72c23"
+
+[[files]]
+file = "shaderpacks/[Timoti11] photon_v1.2a.toml"
+hash = "ba63eb6bd51a16c315f33ebd78ed3aa51716c99e39d108a75236515585ca4ebd"
+
+[[files]]
+file = "shaderpacks/[Timoti11] photon_v1.2a.zip.txt"
+hash = "bb256b6b077e97e1b3c64b87564e25af1178d6bec31d01fb69b91fc9ce2ffdd4"
 
 [[files]]
 file = "shaderpacks/rethinking-voxels.pw.toml"

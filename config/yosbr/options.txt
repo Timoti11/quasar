@@ -61,7 +61,7 @@ invertXMouse:false
 invertYMouse:false
 realmsNotifications:true
 showSubtitles:false
-directionalAudio:true
+directionalAudio:false
 touchscreen:false
 bobView:true
 toggleCrouch:false
@@ -77,7 +77,7 @@ damageTiltStrength:1.0
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["vanilla","continuity:default","continuity:glass_pane_culling_fix","file/Default-Dark-Mode-1.21.6-2025.6.0.zip","file/Eating Animation.zip","file/Ore Variants v2.9.zip","file/Simple Grass Flowers v1.9.6.zip","file/simple-flowered-moss-0.1.zip","file/xali\u0027s enchanted book v1.0.0.zip","file/§2§lVisual §a§lLeaf §2§lDecay §7§o1.4 §8.zip","file/§9RAY\u0027s §f3D §6Ladders§8§o§k.zip"]
+resourcePacks:["vanilla","continuity:default","continuity:glass_pane_culling_fix","file/Default-Dark-Mode-1.21.6-2025.6.0.zip","file/Eating Animation.zip","file/Ore Variants v2.9.zip","file/Simple Grass Flowers v1.9.6.zip","file/simple-flowered-moss-0.1.zip","file/xali\u0027s enchanted book v1.0.0.zip","file/§2§lVisual §a§lLeaf §2§lDecay §7§o1.4 §8.zip","file/§9RAY\u0027s §f3D §6Ladders§8§o§k.zip","file/Icons.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:ru_ru
@@ -105,7 +105,7 @@ mouseWheelSensitivity:1.0
 rawMouseInput:true
 allowCursorChanges:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 hideMatchedNames:true
 joinedFirstServer:false
 syncChunkWrites:true
