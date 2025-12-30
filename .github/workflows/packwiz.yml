@@ -93,7 +93,7 @@ jobs:
             -x 'packwiz-installer.jar' \
             -x 'packwiz.json'
       - name: Upload Artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: Modpack
           path: .output/
