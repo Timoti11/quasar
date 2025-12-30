@@ -221,8 +221,8 @@ file = "config/yosbr/config/quilt/qsl/registry.toml"
 hash = "e779f85c4292306465a258b9fcfbb72c3590b078787ef79e364ee0845b9f9551"
 
 [[files]]
-file = "config/yosbr/config/shouldersurfing.toml"
-hash = "53577330cc834751f258023ceb7316b62be9b1a448ec88814377bc7de09148a2"
+file = "config/yosbr/config/shouldersurfing-client.toml"
+hash = "aa3b2ff8d0d01a88cdd3c1863aa595af0b886f2cae588e46264422bef3c07733"
 
 [[files]]
 file = "config/yosbr/config/simpleupdatechecker_modpack.json"
@@ -263,6 +263,10 @@ hash = "f0236ccfdb014816e015e95798e0c3e172be9845c28aa79de4fd12f55e725a9d"
 [[files]]
 file = "config/yosbr/config/xaeroworldmap.txt"
 hash = "cc85327a8d07677081a9c1dd23eccefe4c926c26d5d269db7735b3a5a3fd9a29"
+
+[[files]]
+file = "config/yosbr/debug-profile.json"
+hash = "d1618de33a4adaed450e26615d253e989de18422af25da1471a6eda70a56b8eb"
 
 [[files]]
 file = "config/yosbr/options.txt"
@@ -400,11 +404,6 @@ metafile = true
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
 hash = "6085d2f0a5deabc026667492ac344d9b9007c80ccadb3f916fe9b0ec3037f022"
-metafile = true
-
-[[files]]
-file = "mods/exordium.pw.toml"
-hash = "c1396c86bc85ccdcb9b5e0d7e5aec00d7f4d0e73b246fb9c92672b4e7aab17ba"
 metafile = true
 
 [[files]]
