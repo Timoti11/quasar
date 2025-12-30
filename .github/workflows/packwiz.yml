@@ -31,6 +31,8 @@ jobs:
         id: info
         shell: bash
         run: |
+          set -euo pipefail
+
           name=$(stoml pack.toml name)
           echo "name=$name" >> "$GITHUB_OUTPUT"
 
@@ -53,6 +55,7 @@ jobs:
     env:
       version: ${{ needs.info.outputs.version }}
       sha: ${{ needs.info.outputs.sha }}
+      PACKAGE: ${{ needs.info.outputs.package }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -68,23 +71,26 @@ jobs:
       - name: Prepare environment
         shell: bash
         run: |
+          set -euo pipefail
+
           touch index.toml
           packwiz refresh
 
-          [ -d .output ] && rm -r .output
-          [ -d .temp ] && rm -r .temp
-          mkdir -p .output && mkdir -p .temp
+          rm -rf .output .temp
+          mkdir -p .output .temp
 
       - name: Prepare files
         shell: bash
         run: |
+          set -euo pipefail
+
           readonly files=(
             ./config/isxander-main-menu-credits.json
           )
           for file in "${files[@]}"; do
             [[ ! -a "${file}" ]] && continue
             echo "Replacing placeholders in ${file} file to data from environment"
-            eval "echo \"$(cat ${file} | sed -E 's/([\"])/\\\1/g')\" > ${file}" 2> /dev/null
+            eval "echo \"$(cat "${file}" | sed -E 's/([\"])/\\\1/g')\" > ${file}" 2> /dev/null
           done
 
       - name: Setup Java
@@ -96,26 +102,56 @@ jobs:
       - name: Download Packwiz Installer
         shell: bash
         run: |
+          set -euo pipefail
           wget https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar \
             -O .temp/packwiz-installer-bootstrap.jar
 
       - name: Export Modpack
         shell: bash
         run: |
-          packwiz modrinth export -o .output/${{ needs.info.outputs.package }}.mrpack
+          set -euo pipefail
 
-          pack=file://$(realpath pack.toml)
-          cd .temp && java -jar packwiz-installer-bootstrap.jar -g "$pack"
-          zip -r ../.output/${{ needs.info.outputs.package }}.zip . \
+          # 1) mrpack
+          # Иногда удобнее делать export в текущую папку и потом переместить,
+          # чтобы точно не промахнуться с путями.
+          packwiz modrinth export
+
+          mrpack_file="$(ls -1 *.mrpack | head -n 1 || true)"
+          if [[ -z "${mrpack_file}" ]]; then
+            echo "ERROR: packwiz did not produce any .mrpack file"
+            exit 1
+          fi
+          mv -f "${mrpack_file}" ".output/${PACKAGE}.mrpack"
+
+          # 2) zip через installer-bootstrap
+          pack="file://$(realpath pack.toml)"
+          pushd .temp >/dev/null
+          java -jar packwiz-installer-bootstrap.jar -g "$pack"
+
+          # zip всегда должен появиться как файл
+          zip -r "../.output/${PACKAGE}.zip" . \
             -x 'packwiz-installer-bootstrap.jar' \
             -x 'packwiz-installer.jar' \
             -x 'packwiz.json'
+          popd >/dev/null
+
+          echo "=== .output contents ==="
+          ls -lah .output
+
+          # финальная проверка: если файлов нет, падаем (чтобы не было "Artifact not found" в release)
+          if ! compgen -G ".output/*" > /dev/null; then
+            echo "ERROR: .output is empty, nothing to upload"
+            exit 1
+          fi
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
           name: Modpack
-          path: .output/
+          path: |
+            .output/*.zip
+            .output/*.mrpack
+          if-no-files-found: error
 
   release:
     runs-on: ubuntu-latest
@@ -130,6 +166,13 @@ jobs:
         with:
           name: Modpack
           path: .output
+
+      - name: List downloaded files
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo "=== downloaded .output ==="
+          ls -lah .output
 
       - name: Create release
         uses: softprops/action-gh-release@v1
