@@ -1,8 +1,0 @@
-name = "ExtraSounds"
-filename = "extrasounds-3.0.0+1.21.10.lonefelidae16-build.1.jar"
-side = "both"
-
-[download]
-url = "https://www.dropbox.com/scl/fi/fyxv1kg7dvzu2vby9a0qo/extrasounds-3.0.0-1.21.10.lonefelidae16-build.1.jar?rlkey=3nwdths4omtdbx1udg51ofgdv&st=9pxmdeda&dl=1"
-hash-format = "sha256"
-hash = "663825bfc592a38cb07fe000f12b859554b8a70ca65ebccf29f00a170eb88fbf"

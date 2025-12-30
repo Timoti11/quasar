@@ -1,0 +1,42 @@
+{
+  "configVersion": 3,
+  "enableSignBuffering": false,
+  "targetFPSNameTags": 60,
+  "enableNametagScreenBuffering": false,
+  "chatSettings": {
+    "enabled": false,
+    "maxFps": 60,
+    "forceBlend": false,
+    "forceUpdates": false
+  },
+  "debugScreenSettings": {
+    "enabled": false,
+    "maxFps": 10,
+    "forceBlend": false,
+    "forceUpdates": false
+  },
+  "hotbarSettings": {
+    "enabled": true,
+    "maxFps": 20,
+    "forceBlend": false,
+    "forceUpdates": false
+  },
+  "experienceSettings": {
+    "enabled": false,
+    "maxFps": 5,
+    "forceBlend": false,
+    "forceUpdates": false
+  },
+  "healthSettings": {
+    "enabled": false,
+    "maxFps": 20,
+    "forceBlend": false,
+    "forceUpdates": false
+  },
+  "scoreboardSettings": {
+    "enabled": false,
+    "maxFps": 5,
+    "forceBlend": false,
+    "forceUpdates": false
+  }
+}
