@@ -1,10 +1,8 @@
 name: packwiz
-
 on:
   push:
-    tags:        
+    tags:
       - v*
-
 jobs:
   info:
     runs-on: ubuntu-latest
@@ -59,10 +57,9 @@ jobs:
         run: |
           touch index.toml
           packwiz refresh
-
-          [ -d .output ] && rm -r .output
-          [ -d .temp ] && rm -r .temp
-          mkdir -p .output && mkdir -p .temp
+          [ -d output ] && rm -r output
+          [ -d temp ] && rm -r temp
+          mkdir -p output && mkdir -p temp
       - name: Prepare files
         run: |
           readonly files=(
@@ -81,37 +78,35 @@ jobs:
       - name: Download Packwiz Installer
         run: |
           wget https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar \
-           -O .temp/packwiz-installer-bootstrap.jar
+           -O temp/packwiz-installer-bootstrap.jar
       - name: Export Modpack
         run: |
-          packwiz modrinth export -o .output/${{ needs.info.outputs.package }}.mrpack
-          
-          if [ ! -f .output/${{ needs.info.outputs.package }}.mrpack ]; then
+          packwiz modrinth export -o output/${{ needs.info.outputs.package }}.mrpack
+         
+          if [ ! -f output/${{ needs.info.outputs.package }}.mrpack ]; then
             echo "ОШИБКА: .mrpack файл не создан!"
             exit 1
           fi
-          echo "✓ .mrpack создан: $(ls -lh .output/)"
-
+          echo "✓ .mrpack создан: $(ls -lh output/)"
           pack=file://`realpath pack.toml`
-          cd .temp && java -jar packwiz-installer-bootstrap.jar -g $pack
-          
-          echo "Содержимое .temp/ после установки:"
+          cd temp && java -jar packwiz-installer-bootstrap.jar -g $pack
+         
+          echo "Содержимое temp/ после установки:"
           ls -la
-          
-          zip -r ../.output/${{ needs.info.outputs.package }}.zip . \
+         
+          zip -r ../output/${{ needs.info.outputs.package }}.zip . \
             -x 'packwiz-installer-bootstrap.jar' \
             -x 'packwiz-installer.jar' \
             -x 'packwiz.json'
-          
+         
           cd "$GITHUB_WORKSPACE"
-          echo "Финальное содержимое .output/:"
-          ls -lh .output/
+          echo "Финальное содержимое output/:"
+          ls -lh output/
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
           name: Modpack
-          path: .output/*
-
+          path: output/*
   release:
     runs-on: ubuntu-latest
     if: startsWith(github.ref, 'refs/tags/v')
