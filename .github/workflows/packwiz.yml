@@ -2,7 +2,7 @@ name: packwiz
 
 on:
   push:
-    tags:        
+    tags:
       - v*
 
 jobs:
@@ -17,26 +17,35 @@ jobs:
       package: ${{ steps.info.outputs.package }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
+
       - name: Setup Go
-        uses: actions/setup-go@v3
+        uses: actions/setup-go@v5
         with:
-          go-version: '>=1.19.0'
+          go-version: ">=1.19.0"
+
       - name: Prepare environment
         run: GO111MODULE=on go install github.com/freshautomations/stoml@latest
+
       - name: Get info
         id: info
+        shell: bash
         run: |
-            name=`stoml pack.toml name`
-            echo "::set-output name=name::$name"
-            version=`stoml pack.toml version`
-            echo "::set-output name=version::$version"
-            minecraft=`stoml pack.toml versions.minecraft`
-            echo "::set-output name=minecraft::$minecraft"
-            sha=`echo $GITHUB_SHA | cut -c 1-7`
-            echo "::set-output name=sha::$sha"
-            package=${name}-${version}
-            echo "::set-output name=package::$package"
+          name=$(stoml pack.toml name)
+          echo "name=$name" >> "$GITHUB_OUTPUT"
+
+          version=$(stoml pack.toml version)
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+
+          minecraft=$(stoml pack.toml versions.minecraft)
+          echo "minecraft=$minecraft" >> "$GITHUB_OUTPUT"
+
+          sha=$(echo "$GITHUB_SHA" | cut -c 1-7)
+          echo "sha=$sha" >> "$GITHUB_OUTPUT"
+
+          package=${name}-${version}
+          echo "package=$package" >> "$GITHUB_OUTPUT"
+
   build:
     runs-on: ubuntu-latest
     if: startsWith(github.ref, 'refs/tags/v')
@@ -44,18 +53,20 @@ jobs:
     env:
       version: ${{ needs.info.outputs.version }}
       sha: ${{ needs.info.outputs.sha }}
-    outputs:
-      package: ${{ steps.prepare.outputs.package }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
+
       - name: Setup Go
-        uses: actions/setup-go@v3
+        uses: actions/setup-go@v5
         with:
-          go-version: '>=1.19.0'
+          go-version: ">=1.19.0"
+
       - name: Download Packwiz
         run: go install github.com/packwiz/packwiz@latest
+
       - name: Prepare environment
+        shell: bash
         run: |
           touch index.toml
           packwiz refresh
@@ -63,7 +74,9 @@ jobs:
           [ -d .output ] && rm -r .output
           [ -d .temp ] && rm -r .temp
           mkdir -p .output && mkdir -p .temp
+
       - name: Prepare files
+        shell: bash
         run: |
           readonly files=(
             ./config/isxander-main-menu-credits.json
@@ -71,29 +84,35 @@ jobs:
           for file in "${files[@]}"; do
             [[ ! -a "${file}" ]] && continue
             echo "Replacing placeholders in ${file} file to data from environment"
-            eval "echo \"$(cat ${file} | sed -E 's/(["])/\\\1/g')\" > ${file}" 2> /dev/null
+            eval "echo \"$(cat ${file} | sed -E 's/([\"])/\\\1/g')\" > ${file}" 2> /dev/null
           done
+
       - name: Setup Java
-        uses: actions/setup-java@v3
+        uses: actions/setup-java@v4
         with:
-          distribution: 'temurin'
-          java-version: '22'
+          distribution: "temurin"
+          java-version: "22"
+
       - name: Download Packwiz Installer
+        shell: bash
         run: |
           wget https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar \
-           -O .temp/packwiz-installer-bootstrap.jar
+            -O .temp/packwiz-installer-bootstrap.jar
+
       - name: Export Modpack
+        shell: bash
         run: |
           packwiz modrinth export -o .output/${{ needs.info.outputs.package }}.mrpack
 
-          pack=file://`realpath pack.toml`
-          cd .temp && java -jar packwiz-installer-bootstrap.jar -g $pack
+          pack=file://$(realpath pack.toml)
+          cd .temp && java -jar packwiz-installer-bootstrap.jar -g "$pack"
           zip -r ../.output/${{ needs.info.outputs.package }}.zip . \
             -x 'packwiz-installer-bootstrap.jar' \
             -x 'packwiz-installer.jar' \
             -x 'packwiz.json'
+
       - name: Upload Artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: Modpack
           path: .output/
@@ -104,21 +123,25 @@ jobs:
     needs: [info, build]
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
+
       - name: Download modpack
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: Modpack
+          path: .output
+
       - name: Create release
         uses: softprops/action-gh-release@v1
         with:
           name: ${{ needs.info.outputs.name }} ${{ needs.info.outputs.version }} for ${{ needs.info.outputs.minecraft }}
           body_path: CHANGELOG.md
           files: |
-            ${{ needs.info.outputs.package }}.zip
-            ${{ needs.info.outputs.package }}.mrpack
+            .output/${{ needs.info.outputs.package }}.zip
+            .output/${{ needs.info.outputs.package }}.mrpack
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Discord notification
         uses: LeGitHubDeTai/github-to-discord@main
         env:
