@@ -103,14 +103,14 @@ jobs:
             -x 'packwiz-installer.jar' \
             -x 'packwiz.json'
           
-          cd ..
+          cd "$GITHUB_WORKSPACE"
           echo "Финальное содержимое .output/:"
           ls -lh .output/
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
           name: Modpack
-          path: .output/
+          path: .output/*
 
   release:
     runs-on: ubuntu-latest
