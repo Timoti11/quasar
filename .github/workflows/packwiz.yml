@@ -2,7 +2,7 @@ name: packwiz
 
 on:
   push:
-    tags:
+    tags:        
       - v*
 
 jobs:
@@ -17,37 +17,26 @@ jobs:
       package: ${{ steps.info.outputs.package }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
-
+        uses: actions/checkout@v2
       - name: Setup Go
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v3
         with:
-          go-version: ">=1.19.0"
-
+          go-version: '>=1.18.0'
       - name: Prepare environment
         run: GO111MODULE=on go install github.com/freshautomations/stoml@latest
-
       - name: Get info
         id: info
-        shell: bash
         run: |
-          set -euo pipefail
-
-          name=$(stoml pack.toml name)
-          echo "name=$name" >> "$GITHUB_OUTPUT"
-
-          version=$(stoml pack.toml version)
-          echo "version=$version" >> "$GITHUB_OUTPUT"
-
-          minecraft=$(stoml pack.toml versions.minecraft)
-          echo "minecraft=$minecraft" >> "$GITHUB_OUTPUT"
-
-          sha=$(echo "$GITHUB_SHA" | cut -c 1-7)
-          echo "sha=$sha" >> "$GITHUB_OUTPUT"
-
-          package=${name}-${version}
-          echo "package=$package" >> "$GITHUB_OUTPUT"
-
+            name=`stoml pack.toml name`
+            echo "::set-output name=name::$name"
+            version=`stoml pack.toml version`
+            echo "::set-output name=version::$version"
+            minecraft=`stoml pack.toml versions.minecraft`
+            echo "::set-output name=minecraft::$minecraft"
+            sha=`echo $GITHUB_SHA | cut -c 1-7`
+            echo "::set-output name=sha::$sha"
+            package=${name}-${version}
+            echo "::set-output name=package::$package"
   build:
     runs-on: ubuntu-latest
     if: startsWith(github.ref, 'refs/tags/v')
@@ -55,103 +44,59 @@ jobs:
     env:
       version: ${{ needs.info.outputs.version }}
       sha: ${{ needs.info.outputs.sha }}
-      PACKAGE: ${{ needs.info.outputs.package }}
+    outputs:
+      package: ${{ steps.prepare.outputs.package }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
-
+        uses: actions/checkout@v2
       - name: Setup Go
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v3
         with:
-          go-version: ">=1.19.0"
-
+          go-version: '>=1.18.0'
       - name: Download Packwiz
         run: go install github.com/packwiz/packwiz@latest
-
       - name: Prepare environment
-        shell: bash
         run: |
-          set -euo pipefail
-
           touch index.toml
           packwiz refresh
 
-          rm -rf .output .temp
-          mkdir -p .output .temp
-
+          [ -d .output ] && rm -r .output
+          [ -d .temp ] && rm -r .temp
+          mkdir -p .output && mkdir -p .temp
       - name: Prepare files
-        shell: bash
         run: |
-          set -euo pipefail
-
           readonly files=(
             ./config/isxander-main-menu-credits.json
           )
           for file in "${files[@]}"; do
             [[ ! -a "${file}" ]] && continue
             echo "Replacing placeholders in ${file} file to data from environment"
-            eval "echo \"$(cat "${file}" | sed -E 's/([\"])/\\\1/g')\" > ${file}" 2> /dev/null
+            eval "echo \"$(cat ${file} | sed -E 's/(["])/\\\1/g')\" > ${file}" 2> /dev/null
           done
-
       - name: Setup Java
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v3
         with:
-          distribution: "temurin"
-          java-version: "22"
-
+          distribution: 'temurin'
+          java-version: '17'
       - name: Download Packwiz Installer
-        shell: bash
         run: |
-          set -euo pipefail
           wget https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar \
-            -O .temp/packwiz-installer-bootstrap.jar
-
+           -O .temp/packwiz-installer-bootstrap.jar
       - name: Export Modpack
-        shell: bash
         run: |
-          set -euo pipefail
+          packwiz modrinth export -o .output/${{ needs.info.outputs.package }}.mrpack
 
-          # 1) mrpack
-          # Иногда удобнее делать export в текущую папку и потом переместить,
-          # чтобы точно не промахнуться с путями.
-          packwiz modrinth export
-
-          mrpack_file="$(ls -1 *.mrpack | head -n 1 || true)"
-          if [[ -z "${mrpack_file}" ]]; then
-            echo "ERROR: packwiz did not produce any .mrpack file"
-            exit 1
-          fi
-          mv -f "${mrpack_file}" ".output/${PACKAGE}.mrpack"
-
-          # 2) zip через installer-bootstrap
-          pack="file://$(realpath pack.toml)"
-          pushd .temp >/dev/null
-          java -jar packwiz-installer-bootstrap.jar -g "$pack"
-
-          # zip всегда должен появиться как файл
-          zip -r "../.output/${PACKAGE}.zip" . \
+          pack=file://`realpath pack.toml`
+          cd .temp && java -jar packwiz-installer-bootstrap.jar -g $pack
+          zip -r ../.output/${{ needs.info.outputs.package }}.zip . \
             -x 'packwiz-installer-bootstrap.jar' \
             -x 'packwiz-installer.jar' \
             -x 'packwiz.json'
-          popd >/dev/null
-
-          echo "=== .output contents ==="
-          ls -lah .output
-
-          # финальная проверка: если файлов нет, падаем (чтобы не было "Artifact not found" в release)
-          if ! compgen -G ".output/*" > /dev/null; then
-            echo "ERROR: .output is empty, nothing to upload"
-            exit 1
-          fi
-
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
           name: Modpack
-          path: |
-            .output/*.zip
-            .output/*.mrpack
-          if-no-files-found: error
+          path: .output/
 
   release:
     runs-on: ubuntu-latest
@@ -159,32 +104,21 @@ jobs:
     needs: [info, build]
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
-
+        uses: actions/checkout@v2
       - name: Download modpack
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v2
         with:
           name: Modpack
-          path: .output
-
-      - name: List downloaded files
-        shell: bash
-        run: |
-          set -euo pipefail
-          echo "=== downloaded .output ==="
-          ls -lah .output
-
       - name: Create release
         uses: softprops/action-gh-release@v1
         with:
           name: ${{ needs.info.outputs.name }} ${{ needs.info.outputs.version }} for ${{ needs.info.outputs.minecraft }}
           body_path: CHANGELOG.md
           files: |
-            .output/${{ needs.info.outputs.package }}.zip
-            .output/${{ needs.info.outputs.package }}.mrpack
+            ${{ needs.info.outputs.package }}.zip
+            ${{ needs.info.outputs.package }}.mrpack
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Discord notification
         uses: LeGitHubDeTai/github-to-discord@main
         env:
