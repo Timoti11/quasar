@@ -85,13 +85,27 @@ jobs:
       - name: Export Modpack
         run: |
           packwiz modrinth export -o .output/${{ needs.info.outputs.package }}.mrpack
+          
+          if [ ! -f .output/${{ needs.info.outputs.package }}.mrpack ]; then
+            echo "ОШИБКА: .mrpack файл не создан!"
+            exit 1
+          fi
+          echo "✓ .mrpack создан: $(ls -lh .output/)"
 
           pack=file://`realpath pack.toml`
           cd .temp && java -jar packwiz-installer-bootstrap.jar -g $pack
+          
+          echo "Содержимое .temp/ после установки:"
+          ls -la
+          
           zip -r ../.output/${{ needs.info.outputs.package }}.zip . \
             -x 'packwiz-installer-bootstrap.jar' \
             -x 'packwiz-installer.jar' \
             -x 'packwiz.json'
+          
+          cd ..
+          echo "Финальное содержимое .output/:"
+          ls -lh .output/
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
