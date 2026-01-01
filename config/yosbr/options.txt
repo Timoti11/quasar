@@ -34,7 +34,7 @@ gamma:0.5
 guiScale:3
 maxAnisotropyBit:2
 textureFiltering:0
-maxFps:120
+maxFps:260
 improvedTransparency:false
 inactivityFpsLimit:"afk"
 mipmapLevels:4
@@ -131,7 +131,7 @@ key_key.sneak:key.keyboard.left.shift
 key_key.sprint:key.keyboard.left.control
 key_key.drop:key.keyboard.q
 key_key.inventory:key.keyboard.e
-key_key.chat:key.keyboard.t
+key_key.chat:key.keyboard.enter
 key_key.playerlist:key.keyboard.tab
 key_key.pickItem:key.mouse.middle
 key_key.command:key.keyboard.slash
@@ -218,12 +218,12 @@ key_lambdynlights.key.toggle_fps_dynamic_lighting:key.keyboard.unknown
 soundCategory_master:0.5055230753311258
 soundCategory_music:0.0
 soundCategory_record:1.0
-soundCategory_weather:1.0
+soundCategory_weather:0.1
 soundCategory_block:1.0
 soundCategory_hostile:0.20590338908450703
 soundCategory_neutral:0.3007537411971831
 soundCategory_player:0.5019091109154928
-soundCategory_ambient:1.0
+soundCategory_ambient:0.1
 soundCategory_voice:1.0
 soundCategory_ui:1.0
 modelPart_cape:true
