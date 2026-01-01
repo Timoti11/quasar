@@ -2,7 +2,7 @@
   // Slug / Project id on Modrinth, used for lookup.
   "project_id": "quasar",
   // Version Number in incremental format, ideally same as one provided on Modrinth.
-  "version_id": "3.11.0",
+  "version_id": "3.11.1",
   // (Optional, empty to disable) Name of the modpack displayed in main menu and placeholders. Fallbacks to project_id.
   "display_name": "Quasar",
   // (Optional, empty to disable) Modpack version used for display, if you want to make it look different.
