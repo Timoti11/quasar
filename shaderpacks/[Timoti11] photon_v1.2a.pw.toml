@@ -1,0 +1,8 @@
+name = "[Timoti11] Photon Shaders"
+filename = "[Timoti11] photon_v1.2a.zip"
+side = "client"
+
+[download]
+url = "https://github.com/sixthsurge/photon/archive/refs/heads/voxy-support.zip"
+hash-format = "sha512"
+hash = "0dc67451e94044b10d5c6ca368517ced810e3feaf595c77aa38ee08b7494938ee4ecbd0e5a613fa9278c461fd80c69497f7431385bb2b02cb1266e8123902f55"
