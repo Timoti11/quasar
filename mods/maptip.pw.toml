@@ -1,0 +1,13 @@
+name = "Maptip"
+filename = "maptip-1.0.1-1.21.6.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/8BO6SrjN/versions/MXnjTYfB/maptip-1.0.1-1.21.6.jar"
+hash-format = "sha512"
+hash = "591b9b0cb0da6a5a217646b414e7488d6a8ebcf2064512a822373efe1f099b053269c866e3ae0173fe4e400cece3b8a95fef15adce3369aed2cce9b0911afeed"
+
+[update]
+[update.modrinth]
+mod-id = "8BO6SrjN"
+version = "MXnjTYfB"
