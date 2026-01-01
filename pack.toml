@@ -1,12 +1,12 @@
 name = "Quasar"
 author = "Timoti11"
-version = "3.11.0"
+version = "3.11.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "41cbcf22a5844a6de68de0ead2fd1dcb4f806455ab782a6fb2f793f07ee77ae9"
+hash = "2ad3e4c501b87e9d2bd409ba623eddfdb3666bc5d376ffabd2cc2e1e75a47f89"
 
 [versions]
 fabric = "0.18.4"

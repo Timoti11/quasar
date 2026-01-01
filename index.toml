@@ -62,7 +62,7 @@ hash = "ad9502638dfc64191c82e28efeede417bd4ab32b6276e60117bc978e41b936bd"
 
 [[files]]
 file = "config/simpleupdatechecker_modpack.json"
-hash = "514268c94d1f61f79d7c1c37d0d4b925a3e4158074d94a16cc5b8e414dd2e0c5"
+hash = "6ae5c698b9f6c26c0dddb4a5d1d72cb0ac7a6db2417f386067e051ad8eb4b6d2"
 
 [[files]]
 file = "config/sodium-options.json"
@@ -146,7 +146,7 @@ hash = "775416472480944da710b09587f0090ea5dadc528c1ffea65259bd8bf65e6425"
 
 [[files]]
 file = "config/yosbr/config/customwindowtitle-client.toml"
-hash = "37b1f3203ee0b0b749f34948571cc8e4c975b1d89d848f04d2e3ae2027ea4d5b"
+hash = "0e3188c3b659515b03d9508f2f416aa321a4ab37f9c0f0f9b2d158949c7839a1"
 
 [[files]]
 file = "config/yosbr/config/debugify-descriptions.json"
@@ -225,10 +225,6 @@ file = "config/yosbr/config/shouldersurfing-client.toml"
 hash = "aa3b2ff8d0d01a88cdd3c1863aa595af0b886f2cae588e46264422bef3c07733"
 
 [[files]]
-file = "config/yosbr/config/simpleupdatechecker_modpack.json"
-hash = "6ae5c698b9f6c26c0dddb4a5d1d72cb0ac7a6db2417f386067e051ad8eb4b6d2"
-
-[[files]]
 file = "config/yosbr/config/skinlayers.json"
 hash = "023a3275203cfecc8d4eafe544b41683221b5094723e12cefd37124e3f488efd"
 
@@ -270,7 +266,7 @@ hash = "d1618de33a4adaed450e26615d253e989de18422af25da1471a6eda70a56b8eb"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "7dcfc77f2298f57130514d63302309ad7e2098936038c7256b881f8b9a54eab6"
+hash = "4dbd9c1b4c135a58b0b290afe7e7446647b4c52edc4985fba92c9b0f2245724c"
 
 [[files]]
 file = "icon.png"
@@ -487,8 +483,8 @@ hash = "113af68f0f6a6490c66b13bd0f2641ecacbb5320b930cc0bc5574dcc8f070474"
 metafile = true
 
 [[files]]
-file = "mods/map-tooltip.pw.toml"
-hash = "808ebcde2cb1ba57d6369f11846452332cb8d24ccd1826ed75861de73ac57b42"
+file = "mods/maptip.pw.toml"
+hash = "e7d85e2a6c6b80c27929a6aca5d01e7320b9b9d5dedf97b6d67b6b600d02a9f9"
 metafile = true
 
 [[files]]
@@ -632,6 +628,11 @@ hash = "158242203ca5ed82f7c2628f0c2ec05c94a93d6102a8fd88a21aa9fe30afee76"
 metafile = true
 
 [[files]]
+file = "mods/voxy.pw.toml"
+hash = "98f6ceea9a07d7cf9f08bce86fe8fb340f806fa1a0b6ec8f6f16dcbcafd42475"
+metafile = true
+
+[[files]]
 file = "mods/yacl.pw.toml"
 hash = "6b2e6c4faa6fa928c5c5c582752b80401e418d4f897839b7d0338acc08e94803"
 metafile = true
@@ -696,8 +697,9 @@ file = "shaderpacks/[Timoti11] complementary-reimagined.zip.txt"
 hash = "bc0f01440d53aded209be5e32349737c5eaeb6d2a0c6bfbe45aba22733f72c23"
 
 [[files]]
-file = "shaderpacks/[Timoti11] photon_v1.2a.toml"
-hash = "ba63eb6bd51a16c315f33ebd78ed3aa51716c99e39d108a75236515585ca4ebd"
+file = "shaderpacks/[Timoti11] photon_v1.2a.pw.toml"
+hash = "134b6a9989b60b3bb031975d8e9fc13550975e8cff6df7b35b6695b2f1698441"
+metafile = true
 
 [[files]]
 file = "shaderpacks/[Timoti11] photon_v1.2a.zip.txt"
